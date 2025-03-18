@@ -1,0 +1,228 @@
+---
+title: "Lecture 1.2 - Characteristics of distributions"
+author: "Professor MacDonald"
+date: "3/19/2025"
+engine: knitr
+format: 
+    live-html: 
+      output-file: lecture.2.1.html
+webr:
+  cell-options:
+    autorun: false
+    warning: false
+  packages:
+    - tidyverse
+    - gapminder
+  resources:
+    - https://raw.githubusercontent.com/andrewmacd/dkustats101spr2025s4/main/lectures/datasets/handedness.data.csv
+    - https://raw.githubusercontent.com/andrewmacd/dkustats101spr2025s4/main/lectures/datasets/classroster.csv
+---
+
+{{< include ../_extensions/r-wasm/live/_knitr.qmd >}}
+
+```{webr}
+#| label: setup
+#| include: false
+#| autorun: true
+
+theme_set(theme_classic())
+
+modes <- function(x) {
+  ux <- unique(x)
+  tab <- tabulate(match(x, ux))
+  ux[tab == max(tab)]
+}
+
+classroster <- read.csv("classroster.csv", fileEncoding="UTF-8-BOM")
+handedness.data <- read.csv("handedness.data.csv", fileEncoding="UTF-8-BOM")
+```
+
+```{r}
+#| label: rsetup
+#| include: false
+
+handedness.data <- read.csv("datasets/handedness.data.csv", fileEncoding="UTF-8-BOM")
+```
+
+# Characteristics of distributions
+
+## Distribution of common quantities
+
+Many phenomena in nature have a relatively easily guessed distribution characteristics
+
+-   What is the distribution of length of rivers in the U.S.?
+-   What is the distribution of width of flower sepals?
+-   What is the distribution of life expectancy across countries in 2007?
+
+Features to guess:
+
+-   Shape
+-   Center
+-   Spread
+
+```{webr}
+#| label: pick1
+sample(classroster$name, 1)
+```
+
+## Graphs of common quantities
+
+### Length of rivers in the U.S.
+
+```{webr}
+#| label: riverlength
+#| caption: "Graph of river lengths"
+ggplot(data.frame(rivers), aes(x=rivers)) + 
+  geom_histogram(fill="blue4", color="black") +
+  labs(x="Length in miles", y="count")
+```
+
+### Flower sepal width
+
+```{webr}
+#| label: flowerwidth
+#| caption: "Graph of flower sepal widths"
+ggplot(iris, aes(x=Sepal.Width)) + 
+  geom_histogram(fill="blue4", color="black", bins=15) +
+  labs(x="Sepal width", y="Count")
+```
+
+### Life expetancy in 2007
+
+```{webr}
+#| label: lifexpectancy
+#| caption: "Graph of life expectancies"
+gap2007 <-gapminder %>%
+  filter(year==2007)
+
+ggplot(gap2007, aes(x=lifeExp)) + 
+  geom_histogram(fill="blue4", color="black") +
+  labs(x="Life expectancy in years", y="Count")
+```
+
+## Distribution of our data
+
+Let's now collect some data about our class
+
+-   Information about handedness
+-   Information about heights
+
+## Guessing the shape of our data
+
+Take a guess at what each question's distribution characteristics will be:
+
+-   Shape
+    -   Skew
+    -   Modes
+-   Center
+    -   Mean
+    -   Median
+-   Spread
+    -   Range
+    -   IQR
+    -   Standard deviation
+-   Also think carefully about the difference between the three different calculations of handedness - how do they differ? Discuss with your partner.
+
+## Height summary statistics
+
+-   Shape
+    -   Skew: 
+    -   Modes: **`r modes(handedness.data$Q1)`**
+-   Center
+    -   Mean **`r mean(handedness.data$Q1, na.rm=TRUE)`**
+    -   Median **`r median(handedness.data$Q1, na.rm=TRUE)`**
+-   Spread
+    -   Range **`r range(handedness.data$Q1, na.rm=TRUE)`**
+    -   IQR **`r IQR(handedness.data$Q1, na.rm=TRUE)`**
+    -   Standard deviation **`r sd(handedness.data$Q1, na.rm=TRUE)`**
+
+```{webr}
+#| label: pick2
+sample(classroster$name, 1)
+```
+
+## Height graph
+
+```{webr}
+#| label: heightgraph
+#| caption: "Graph of heights of students in our class"
+ggplot(handedness.data, aes(x=Q1)) +
+  geom_histogram(fill="blue4", color="black", bins=6) + 
+  labs(x="Height in cm", y="Count")
+```
+
+## Handedness l-r summary statistics
+
+-   Shape
+    -   Skew:
+    -   Modes: **`r modes(handedness.data$Q2)`**
+-   Center
+    -   Mean **`r mean(handedness.data$Q2)`**
+    -   Median **`r median(handedness.data$Q2, na.rm=TRUE)`**
+-   Spread
+    -   Range **`r range(handedness.data$Q2, na.rm=TRUE)`**
+    -   IQR **`r IQR(handedness.data$Q2, na.rm=TRUE)`**
+    -   Standard deviation **`r sd(handedness.data$Q2, na.rm=TRUE)`**
+-   What does this measure?
+
+```{webr}
+#| label: pick3
+sample(classroster$name, 1)
+```
+
+## Handedness l-r graph
+
+```{webr}
+#| label: leftminusright
+#| caption: "Histogram of left handedness minus right handedness"
+ggplot(handedness.data, aes(x=Q2)) +
+  geom_histogram(fill="blue4", color="black", binwidth=2) + 
+  labs(x="Handedness left - right", y="Count")
+```
+
+## Handedness l+r summary statistics
+
+-   Shape
+    -   Skew:
+    -   Modes: **`r modes(handedness.data$Q3)`**
+-   Center
+    -   Mean **`r mean(handedness.data$Q3, na.rm=TRUE)`**
+    -   Median **`r median(handedness.data$Q3, na.rm=TRUE)`**
+-   Spread
+    -   Range **`r range(handedness.data$Q3, na.rm=TRUE)`**
+    -   IQR **`r IQR(handedness.data$Q3, na.rm=TRUE)`**
+    -   Standard deviation **`r sd(handedness.data$Q3, na.rm=TRUE)`**
+-   What does this measure?
+
+```{webr}
+#| label: picker4
+sample(classroster$name, 1)
+```
+
+## Handedness l+r graph
+
+```{webr}
+#| label: leftplusright
+#| caption: "Histogram of left handedness plus right handedness"
+ggplot(handedness.data, aes(x=Q3)) +
+  geom_histogram(fill="blue4", color="black", binwidth=2) + 
+  labs(x="Handedness left + right", y="Count")
+```
+
+### Handedness left - right / left + right graph
+
+```{webr}
+#| label: leftrightratio
+#| caption: "Histogram of ratio of left handedness vs. right handedness"
+ggplot(handedness.data, aes(x=Q4)) +
+  geom_histogram(fill="blue4", color="black", binwidth=2) + 
+  labs(x="Handedness left - right / left + right", y="Count")
+```
+
+## Closing thoughts
+
+-   Many distributions can be guessed in advanced based on the data generating process
+-   You should have at least a guess as to what the distribution is before starting your exploratory data analysis
+-   Think carefully about what your variable is actually measuring
+-   Characteristics of distributions are **summaries** of the data, almost always obscure features of the data
+-   Don't mislead your readers!!
