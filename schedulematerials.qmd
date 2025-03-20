@@ -37,7 +37,7 @@ Topics covered:
 
 -   Lecture webpage: [Lecture 1.2](lectures/lecture.1.2.html)
 
--   Lecture activity: [Lecture 1.2 activity]
+-   Lecture activity: [Lecture 1.2 activity](activities/Lecture 1.2/lecture.1.2.activity.zip)
     -   Make sure to extract (unzip) the lab files before attempting to modify them!
 
 ## Lab 1.1: R and Quarto familiarization (Wednesday, March 19)

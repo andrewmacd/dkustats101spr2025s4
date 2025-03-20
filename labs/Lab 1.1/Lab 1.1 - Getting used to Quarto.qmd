@@ -14,7 +14,7 @@ format:
 library(tidyverse)
 ```
 
-# Quarto introduction
+# Quarto test
 
 Quarto is a document container that allows you to mix text and code to produce reproducible (see [here](https://www.displayr.com/what-is-reproducible-research/) for why reproducibility is important) results and auto-generate high quality document.
 
@@ -22,7 +22,9 @@ Quarto is a document container that allows you to mix text and code to produce r
 
 To install the software ([{{< latex >}}](https://www.latex-project.org/)) that will allow you to create PDF documents, you will need to enter the following line of code in the Terminal window (**not** the Console window):
 
-```
+$\alpha$
+
+```         
 quarto install tinytex
 ```
 
@@ -50,7 +52,7 @@ RStudio has two views for editing your document, `Source` and `Visual`.
 
 Most people find it easier to edit using the Visual mode. Switch back and forth between the two views to check the differences.
 
-Note that at the top of your document is a special section that defines important attributes of how your document will render. 
+Note that at the top of your document is a special section that defines important attributes of how your document will render.
 
 ![](yamlblock.png)
 
@@ -62,13 +64,13 @@ These options are contained within a set of --- charcters. This section must be 
 
 In particular, you will need to use the Insert a new code chunk button to add a code block
 
-![](Insert code block.png)
+![](Insert%20code%20block.png)
 
-Note that you can only put code between the 
+Note that you can only put code between the
 
 `---`
 
-and 
+and
 
 `---`
 
@@ -76,9 +78,9 @@ parts, text describing the results need to go outside of that block.
 
 ### The setup block
 
-It is best practice to insert a code block at the top of the document (just below the header) that contains any code you want to run first. I usually call this the setup code block. In this code block you will load any libraries needed to run the code in your document as well as do any other setup work. 
+It is best practice to insert a code block at the top of the document (just below the header) that contains any code you want to run first. I usually call this the setup code block. In this code block you will load any libraries needed to run the code in your document as well as do any other setup work.
 
-*Note: do not put install libraries commands in your code blocks. You only need to install libraries once - if you put the install code in your document you will force RStudio to re-download and install the library each time you render the document.* 
+*Note: do not put install libraries commands in your code blocks. You only need to install libraries once - if you put the install code in your document you will force RStudio to re-download and install the library each time you render the document.*
 
 A good code block for the setup looks like this:
 
@@ -90,7 +92,7 @@ A good code block for the setup looks like this:
 
 You can modify how a code block will render by defining options in the code block header. Each line of the code block header starts with
 
-`#| <option>: <value>` 
+`#| <option>: <value>`
 
 *Note that the spacing here must be exactly as shown*
 
@@ -98,31 +100,32 @@ For example, here is a simple code block to produce a histogram.
 
 ![](histsample.png)
 
-In this case, I added the line `#| echo: true` which means that both the code and the results of the code will be printed on the document and added a caption for the histogram. 
+In this case, I added the line `#| echo: true` which means that both the code and the results of the code will be printed on the document and added a caption for the histogram.
 
-While you don't need any headers, generally it is best practice to label each of your code blocks so it is easy to move around your document and find where you wrote each section of code. 
+While you don't need any headers, generally it is best practice to label each of your code blocks so it is easy to move around your document and find where you wrote each section of code.
 
-> Create two code blocks in your sample document, one that produces a histogram of the variable `mpg` and the other that finds the mean of `mpg` (you can use the following code example below). Label these two blocks and your setup block. 
+> Create two code blocks in your sample document, one that produces a histogram of the variable `mpg` and the other that finds the mean of `mpg` (you can use the following code example below). Label these two blocks and your setup block.
 
-```
+```         
 mtcars %>% 
   summarise(mean_mpg = mean(mpg))
 ```
-### Executing your code 
 
-There are two ways of executing your code, one by clicking on the Render button and the other by clicking on the green triangle button to the right of your code. 
+### Executing your code
 
-- Clicking on the Render button will start a new session with all the variables reset and render your document starting at the first code block, going all the way to the end (unless there is an error, in which case it will stop)
+There are two ways of executing your code, one by clicking on the Render button and the other by clicking on the green triangle button to the right of your code.
+
+-   Clicking on the Render button will start a new session with all the variables reset and render your document starting at the first code block, going all the way to the end (unless there is an error, in which case it will stop)
 
 ![](render.png)
 
-- Clicking on the green triangle will execute only the code in the code block. This can be useful to quickly check if your code works. However, it can be dangerous because the result of clicking on the triangle may refer back a variable that you have previously deleted the code for. Also, the preview window of the results of the green triangle can be unreliable for showing formatting and table structure.
+-   Clicking on the green triangle will execute only the code in the code block. This can be useful to quickly check if your code works. However, it can be dangerous because the result of clicking on the triangle may refer back a variable that you have previously deleted the code for. Also, the preview window of the results of the green triangle can be unreliable for showing formatting and table structure.
 
 ![](greentriangle.png)
 
 I consider it best practice to use the Render button regularly to make sure your document will work at submission time and display the way you prefer. Relying on the green triangle method of checking your code should be used sparingly.
 
-> Click Render and verify your document will produce the desired outcome. 
+> Click Render and verify your document will produce the desired outcome.
 
 ## Captioning your graphs and tables
 
