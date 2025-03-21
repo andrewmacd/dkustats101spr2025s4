@@ -62,13 +62,13 @@ For the following variables, please make a table. The first column should be the
 
 ## Question 2: Displaying and describing the data (15 points)
 
-For the moment, we are going to focus on `totalepworth` of females and males. You can create a subset of your data using the `filter()` verb as you learned in the DataCamp lab. 
+For the moment, we are going to focus on `totalepworth` and `psqi_continuousduration` of females and males. You can create a subset of your data using the `filter()` verb as you learned in the DataCamp lab. 
 
 ### 2a. Filtering your data
 
 Using the `filter()` verb as described in the DataCamp lab, make a subset of your data that only includes females and another that includes only males. Show the code you used to make the subset using the `#| echo: true` code block option.
 
-### 2b. Investigating `psqi_continuousduration`
+### 2b. Investigating `totalepworth`
 
 Using the Think-Show-Tell framework from the textbook (example on page 71), investigate the distribution of `totalepworth`, comparing males vs. females.
 
@@ -88,9 +88,9 @@ Note 2: You are recommended to look up how this variable is defined
 
 *Please interpret the meaning of your finding here, especially with respect to your expectation*
 
-### 2c. Investigating `totalepworth`
+### 2c. Investigating `psqi_continuousduration`
 
-Using the Think-Show-Tell framework from the textbook, investigate the distribution of the width of the Chinese paintings
+Using the Think-Show-Tell framework from the textbook, investigate the distribution of `psqi_continuousduration`, comparing males vs. females.
 
 Note: You are recommended to look up how this variable is defined 
 
