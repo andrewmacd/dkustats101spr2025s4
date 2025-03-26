@@ -90,11 +90,11 @@ Topics covered:
 
 -   Lecture webpage: [Lecture 2.1](lectures/lecture.2.1.html)
 
--   Lecture activity: [Lecture 2.1 activity](labs/Lab 2.1/lab.2.1.zip)
+-   Lecture activity: [Lecture 2.1 activity]
 
 ## Lab 2.1: Advanced Quarto editing (Wednesday, March 26)
 
--   Lab files: [Lab 2.1]
+-   Lab files: [Lab 2.1](labs/Lab 2.1/lab.2.1.zip)
     -   Make sure to extract (unzip) the lab files before attempting to modify them!
 
 ## Online lab 2.1 (due on Friday, March 28 at 23:59:00)
