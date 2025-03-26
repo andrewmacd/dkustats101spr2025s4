@@ -90,7 +90,7 @@ Topics covered:
 
 -   Lecture webpage: [Lecture 2.1](lectures/lecture.2.1.html)
 
--   Lecture activity: [Lecture 2.1 activity]
+-   Lecture activity: [Lecture 2.1 activity](labs/Lab 2.1/lab.2.1.zip)
 
 ## Lab 2.1: Advanced Quarto editing (Wednesday, March 26)
 
