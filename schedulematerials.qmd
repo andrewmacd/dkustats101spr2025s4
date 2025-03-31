@@ -115,7 +115,7 @@ Topics covered:
 
 -   Regression assumptions
 
--   Lecture webpage: [Lecture 2.2]
+-   Lecture webpage: [Lecture 2.2](lectures/lecture.2.2.html)
 
 -   Lecture activity: [Lecture 2.2 activity]
 

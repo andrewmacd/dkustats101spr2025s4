@@ -1,0 +1,230 @@
+---
+title: "Unit 2 homework instructions"
+author: "Anonymous"
+date: "3/31/2025"
+output:
+  html_document:
+    toc: true
+subtitle: DKU Stats 101 Spring 2025 Session 4
+format: 
+  pdf:
+    colorlinks: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+# Put any setup code here
+```
+
+::: {#fig-cars layout-ncol=2}
+
+![Maruti - India's most popular car brand](maruti.jpg){#fig-maruti}
+
+![Mumbai traffic](india.traffic.jpg){#fig-mumbai}
+
+Cars in India
+:::
+
+## Scoring guide 
+
+### Content
+
+- The information requested in the question prompts are only a starting point, if you find other interesting information along the way, please report that. You don't need to look at the data forever but if there is obviously something else interesting in the data you should report it.
+- You must have up to Question 3 completed for the homework check on April 6
+- You do not need to be an expert on cars in India for a good score, but I will expect you to look up basic information, such as "what do used cars typically sell for in India?", "what is a standard sized car engine?" and "What are popular car models in India?" and so on to help you understand and set expectations your data.
+- The information requested in the question prompts are only a starting point, if you find other interesting information along the way, please report that. You don't need to look at the data forever but if there is obviously something else interesting in the data you should report it.
+
+### Technical
+
+- Make sure your graphs are produced using `ggplot()`, are well labeled, and are easy to read. 
+- Make sure your tables are produced with the `kable()` function from the `knitr` package, are well labeled, and are easy to read. You can make your tables prettier with the `kableExtra` package.
+- Make sure you do not have anything rendered in your PDF file besides your results and, when asked for by a question, your code. That means no warnings, messages, or other output should appear in your final rendered PDF file.
+- Make sure to accurately  mark each page a question answer appears on when submitting on GradeScope. 
+
+# Used cars in India price analysis
+
+## Introduction
+
+## Question 1: Describing your data (10 points)
+
+### 1a. Where is this data from?
+
+For this dataset, describe the data according to the five Ws & *how* defined in the textbook Chapter 1.2. What are some possible problems with the *who* and *what* of the dataset?
+
+The dataset you are using for this assignment is a subset of the original dataset that can be found [here](https://www.kaggle.com/datasets/amanrajput16/used-car-price-data-from-cars24/data).
+
+### 1b. What are the variable types?
+
+For the following variables, please make a table. 
+
+One column should be the variable name, the second should be the variable type as defined in the textbook Chapter 1.3, and the third the units of the variable (if applicable). 
+
+- `Model.Name`
+- `Price`
+- `Manufacturing_year`
+- `Engine.capacity`
+- `Spare.key`
+- `Transmission`
+- `KM.driven`
+- `Ownership`
+- `Fuel.type`
+- `Imperfections`
+- `Repainted.Parts`
+
+## Question 2: Association (20 points)
+
+Using the `mutate()` verb as described in the DataCamp lab, make a new variable called `Age` that subtracts the year 2024 from the car's `Manufacturing_year`. Please display your code using `#| echo: true` code block option.
+
+### 2a. Investigating `Age` vs. `KM.driven`
+
+Using the Think-Show-Tell framework from the textbook (example on page 213), please examine the relationship *in association terms* between `Age` and `KM.drive`. How strongly are they associated?
+
+Note: for this question and all other Think sections in the homework, you do not need to report the W's of the data (you have already completed this in Q1)
+
+> Think
+
+*For this section, please write down your expectations, why you expect it, the variable meaning, and, given the variable type, the best way to display the data*
+
+> Show
+
+*For this section, please make an appropriate graph or table and briefly describe what you observe*
+
+> Tell
+
+*Please interpret the meaning of your finding here, especially with respect to your expectation*
+
+### 2b. Investigating `Age` vs. `Imperfections`
+
+Using the Think-Show-Tell framework from the textbook, please examine the relationship *in association terms* between `Age` and `Imperfections`. How strongly are they associated? 
+
+> Think
+
+*For this section, please write down your expectations, why you expect it, the variable meaning, and, given the variable type, the best way to display the data*
+
+> Show
+
+*For this section, please make an appropriate graph or table and briefly describe what you observe*
+
+> Tell
+
+*Please interpret the meaning of your finding here, especially with respect to your expectation*
+
+### 2c. Thinking about your results
+
+Consider the results of 2a. and 2b. together. What can we understand about how cars are used over time in India, according to this dataset?
+
+## Question 3: Simple regression (20 points)
+
+### 3a. Investigating `Price` vs. `Age`
+
+Using the Think-Show-Tell framework from the textbook, please examine how the price of a used car is related to the age of a used car.
+
+> Think 
+
+> Show 
+
+> Tell
+
+### 3b. Checking model fit
+
+Make use of all the tools described in the textbook to assess model fit in the `Think again` section - if it is necessary to revise your model, do it in the `Think again` section. Then state any updated conclusions in the `Revising conclusions` section.
+
+> Think again
+
+> Revising conclusions
+
+### 3c. Investigating `Price` vs. `KM.driven`
+
+Similar to 3a. and 3b., fully analyze the relationship between price and kilometers driven. 
+
+> Think 
+
+> Show 
+
+> Tell
+
+> Think again
+
+> Revising conclusions
+
+### 3d. Thinking about your results
+
+What can we learn about the determinants of the price of a used car in India in these two investigations? Do the results surprise you? What lurking variables do you think could be at work here, if any?
+
+> **Complete up to here for Homework Check** - due April 6 at 11:59 pm.
+
+## Question 4: Multiple regression (30 points)
+
+### 4a. Investigating `Price` vs. `Age` and `KM.driven`
+
+Using the Think-Show-Tell framework from the textbook, please examine, using a multiple regression model, how `Age` and `KM.driven` relate to `Price`. Make use of all the tools described in the textbook to assess model fit in the `Think again` section - if it is necessary to revise your model, do it in the `Think again` section. Then state any updated conclusions in the `Revising conclusions` section.
+
+> Think 
+
+> Show 
+
+> Tell
+
+> Think again
+
+> Revising conclusions
+
+### 4b. Interpreting coefficients of 4a. model
+
+Carefully interpret your coefficients from 4a. What do they mean? Are there any lurking variables here?
+
+> Think 
+
+> Show 
+
+> Tell
+
+### 4c. Add the variable `Transmission`
+
+Now add the variable `Transmission` to your model and analyze the relationship similar to what you did in 4a. 
+
+> Think 
+
+> Show 
+
+> Tell
+
+> Think again
+
+> Revising conclusions
+
+### 4d. Reinterpret your coefficients
+
+Carefully interpret your coefficients from 4c. What do they mean? Any new lurking variables to consider?
+
+> Think 
+
+> Show 
+
+> Tell
+
+### 4e. Thinking about your results
+
+Consider the results of 4a.-4d. together. What can we learn about used car prices in India? How did your conclusions change from 3d.? Why do you think they changed?
+
+## Question 5: Your own investigation (20 points)
+
+### 5a. Selecting your own question
+
+Develop your own model of used car prices in India. Use the Think-Show-Tell procedure to conduct your investigation. Think deeply about what your result means and interpret your coefficients carefully. 
+
+> Think 
+
+> Show 
+
+> Tell
+
+> Think again
+
+> Revising conclusions
+
+### 5b. In summary
+
+Sum up everything that you have learned from questions 1-5. Do not simply repeat/rephrase your previous results but try to say something larger that synthesizes the results together to draw a more meaningful general conclusion.

@@ -1,0 +1,201 @@
+"","Model.Name","Price","Manufacturing_year","Engine.capacity","Spare.key","Transmission","KM.driven","Ownership","Fuel.type","Imperfections","Repainted.Parts"
+"1","2016 Maruti Swift VXI",505000,2016,1197,"No","Manual",44499,2,"Petrol",8,4
+"2","2021 Maruti Alto VXI PLUS",392000,2021,796,"Yes","Manual",24463,1,"Petrol",15,7
+"3","2021 Maruti Celerio ZXI PLUS",566000,2021,998,"No","Manual",22245,1,"Petrol",11,2
+"4","2015 Maruti Swift VXI",381000,2015,1197,"Yes","Manual",76928,2,"Petrol",9,3
+"5","2020 Maruti New Wagon-R ZXI 1.2 AMT",592000,2020,1197,"No","Automatic",28300,1,"Petrol",14,1
+"6","2018 Maruti Ciaz ALPHA AT 1.5 SHVS PETROL",763000,2018,1462,"Yes","Automatic",50723,2,"Petrol",6,3
+"7","2017 Maruti Wagon R 1.0 VXI+ AMT",398000,2017,998,"Yes","Automatic",40144,1,"Petrol",10,0
+"8","2018 Maruti Dzire ZXI PLUS AMT",653000,2018,1197,"Yes","Automatic",24902,2,"Petrol",30,1
+"9","2013 Maruti Swift Dzire VXI",421000,2013,1197,"No","Manual",106215,2,"Petrol",0,0
+"10","2020 Maruti Ciaz ALPHA 1.5 SHVS PETROL",793000,2020,1462,"No","Manual",52878,2,"Petrol",11,2
+"11","2017 Maruti Celerio VXI",456000,2017,998,"No","Manual",37599,1,"Petrol",0,0
+"12","2021 Maruti S PRESSO VXI PLUS AMT",466000,2021,998,"Yes","Automatic",27032,1,"Petrol",9,1
+"13","2016 Maruti Wagon R 1.0 VXI AMT",372000,2016,998,"Yes","Automatic",82834,1,"Petrol",12,8
+"14","2021 Maruti IGNIS ALPHA 1.2",622000,2021,1197,"Yes","Manual",30314,1,"Petrol",4,8
+"15","2014 Maruti Wagon R 1.0 VXI",270000,2014,998,"Yes","Manual",53375,1,"Petrol",8,1
+"16","2023 Maruti IGNIS ZETA 1.2",696000,2023,1197,"Yes","Manual",19575,1,"Petrol",4,0
+"17","2017 Maruti Swift Dzire ZXI",519000,2017,1197,"Yes","Manual",34196,1,"Petrol",1,0
+"18","2019 Maruti Celerio ZXI",439000,2019,998,"No","Manual",37817,1,"Petrol",7,5
+"19","2021 Maruti Alto LXI O",380000,2021,796,"Yes","Manual",26792,1,"Petrol",4,0
+"20","2017 Maruti Wagon R 1.0 VXI",436000,2017,998,"Yes","Manual",22526,1,"Petrol",0,0
+"21","2020 Maruti Alto LXI",306000,2020,796,"Yes","Manual",62586,2,"Petrol",3,2
+"22","2020 Maruti New Wagon-R ZXI 1.2 AMT",598000,2020,1197,"No","Automatic",52423,1,"Petrol",10,1
+"23","2019 Maruti New Wagon-R LXI CNG (O) 1.0",482000,2019,998,"Yes","Manual",48593,1,"CNG",19,3
+"24","2019 Maruti Swift ZXI",577000,2019,1197,"Yes","Manual",43834,1,"Petrol",11,5
+"25","2017 Maruti Baleno DELTA CVT PETROL 1.2",495000,2017,1197,"No","Automatic",50509,1,"Petrol",24,2
+"26","2017 Maruti IGNIS DELTA 1.2",465000,2017,1197,"No","Manual",56427,1,"Petrol",15,2
+"27","2016 Maruti Celerio VXI CNG",385000,2016,998,"No","Manual",90267,2,"CNG",14,1
+"28","2018 Maruti IGNIS DELTA 1.2",460000,2018,1197,"Yes","Manual",81794,1,"Petrol",2,0
+"29","2015 Maruti Ciaz VXI+",462000,2015,1373,"Yes","Manual",109535,1,"Petrol",27,13
+"30","2023 Maruti New Wagon-R ZXI 1.2",661000,2023,1197,"Yes","Manual",5098,1,"Petrol",12,2
+"31","2023 Maruti IGNIS ZETA 1.2 AMT",754000,2023,1197,"Yes","Automatic",4714,1,"Petrol",1,0
+"32","2013 Maruti Swift Dzire VXI",378000,2013,1197,"Yes","Manual",33244,1,"Petrol",7,6
+"33","2019 Maruti Ciaz DELTA 1.5 SHVS MT PETROL",733000,2019,1462,"Yes","Manual",46573,1,"Petrol",20,2
+"34","2019 Maruti IGNIS DELTA 1.2",458000,2019,1197,"No","Manual",72496,2,"Petrol",9,6
+"35","2021 Maruti S PRESSO VXI AMT",505000,2021,998,"Yes","Automatic",12067,1,"Petrol",11,7
+"36","2015 Maruti Swift LXI (O)",335000,2015,1197,"No","Manual",71287,2,"Petrol",29,7
+"37","2022 Maruti XL6 ALPHA PLUS MT",1220000,2022,1462,"Yes","Manual",43830,1,"Petrol",3,4
+"38","2017 Maruti Swift VXI",527000,2017,1197,"Yes","Manual",63852,1,"Petrol",4,1
+"39","2016 Maruti Ciaz ZXI+",596000,2016,1373,"Yes","Manual",75940,1,"Petrol",15,2
+"40","2021 Maruti S PRESSO VXI+",472000,2021,998,"No","Manual",10432,1,"Petrol",1,1
+"41","2015 Maruti Swift Dzire VXI",468000,2015,1197,"Yes","Manual",96263,1,"Petrol",0,0
+"42","2023 Maruti BREZZA ZXI SMART HYBRID",1146000,2023,1462,"Yes","Manual",22737,1,"Petrol",0,0
+"43","2020 Maruti Dzire VXI",613000,2020,1197,"Yes","Manual",30892,1,"Petrol",5,2
+"44","2014 Maruti Celerio VXI AMT",362000,2014,998,"Yes","Automatic",14522,2,"Petrol",5,0
+"45","2018 Maruti Celerio VXI",397000,2018,998,"Yes","Manual",11942,1,"Petrol",19,5
+"46","2015 Maruti Ciaz VXI+",495000,2015,1373,"No","Manual",95738,2,"Petrol",10,9
+"47","2018 Maruti Ciaz DELTA DIESEL 1.3",701000,2018,1248,"No","Manual",80245,2,"Diesel",6,0
+"48","2018 Maruti Swift VXI",530000,2018,1197,"No","Manual",74858,1,"Petrol",0,0
+"49","2017 Maruti IGNIS ZETA 1.2 AMT",444000,2017,1197,"Yes","Automatic",113744,1,"Petrol",12,8
+"50","2015 Maruti Ertiga VXI CNG",601000,2015,1373,"No","Manual",52143,3,"CNG",18,5
+"51","2015 Maruti Wagon R 1.0 VXI",341000,2015,998,"No","Manual",34384,1,"Petrol",12,0
+"52","2022 Maruti New Wagon-R VXI (O) 1.2",533000,2022,1197,"No","Manual",12195,1,"Petrol",4,0
+"53","2012 Maruti Wagon R 1.0 VXI",239000,2012,998,"No","Manual",43569,2,"Petrol",19,2
+"54","2018 Maruti Wagon R 1.0 LXI CNG",388000,2018,998,"Yes","Manual",48605,2,"CNG",10,2
+"55","2017 Maruti Wagon R 1.0 VXI",436000,2017,998,"No","Manual",55485,1,"Petrol",9,0
+"56","2017 Maruti Baleno DELTA PETROL 1.2",490000,2017,1197,"Yes","Manual",47472,1,"Petrol",12,5
+"57","2015 Maruti Ciaz VXI",490000,2015,1373,"Yes","Manual",56050,1,"Petrol",12,0
+"58","2019 Maruti Celerio ZXI AMT",427000,2019,998,"Yes","Automatic",74343,1,"Petrol",30,1
+"59","2022 Maruti S PRESSO VXI+",425000,2022,998,"Yes","Manual",21688,2,"Petrol",1,0
+"60","2021 Maruti Celerio ZXI AMT",600000,2021,998,"No","Automatic",24059,1,"Petrol",1,2
+"61","2017 Maruti Alto 800 LXI",294000,2017,796,"No","Manual",69275,1,"Petrol",0,0
+"62","2019 Maruti Celerio VXI CNG",518000,2019,998,"Yes","Manual",35436,1,"CNG",3,3
+"63","2016 Maruti Ciaz ZXI",578000,2016,1373,"Yes","Manual",50044,1,"Petrol",9,5
+"64","2019 Maruti New Wagon-R VXI 1.2 AMT",501000,2019,1197,"Yes","Automatic",12716,1,"Petrol",23,2
+"65","2014 Maruti Ritz VXI",269000,2014,1197,"Yes","Manual",57273,1,"Petrol",0,0
+"66","2023 Maruti New Wagon-R ZXI 1.2",608000,2023,1197,"Yes","Manual",35595,1,"Petrol",6,3
+"67","2017 Maruti Baleno ZETA CVT PETROL 1.2",528000,2017,1197,"No","Automatic",113814,2,"Petrol",7,5
+"68","2017 Maruti Celerio X ZXI (O) AMT",437000,2017,998,"Yes","Automatic",65272,2,"Petrol",13,5
+"69","2022 Maruti Baleno DELTA PETROL 1.2",743000,2022,1197,"No","Manual",19025,1,"Petrol",9,4
+"70","2021 Maruti S PRESSO VXI PLUS AMT",476000,2021,998,"No","Automatic",18880,2,"Petrol",6,0
+"71","2022 Maruti XL6 ALPHA PLUS AT DUAL TONE",1288000,2022,1462,"Yes","Automatic",6634,1,"Petrol",0,0
+"72","2013 Maruti Wagon R 1.0 VXI",286000,2013,998,"Yes","Manual",57444,1,"Petrol",35,3
+"73","2019 Maruti Baleno ZETA PETROL 1.2",694000,2019,1197,"No","Manual",54029,1,"Petrol",14,3
+"74","2017 Maruti Alto 800 LXI CNG O",285000,2017,796,"No","Manual",76356,1,"CNG",8,9
+"75","2021 Maruti S PRESSO VXI+",436000,2021,998,"No","Manual",46355,1,"Petrol",10,1
+"76","2018 Maruti Baleno DELTA CVT PETROL 1.2",581000,2018,1197,"Yes","Automatic",33974,1,"Petrol",8,4
+"77","2016 Maruti Ciaz VXI",600000,2016,1373,"Yes","Manual",39516,1,"Petrol",11,7
+"78","2017 Maruti IGNIS ZETA 1.2 AMT",461000,2017,1197,"Yes","Automatic",30087,1,"Petrol",2,5
+"79","2014 Maruti Wagon R 1.0 LXI CNG",287000,2014,998,"No","Manual",105898,2,"CNG",30,0
+"80","2014 Maruti Swift Dzire VXI",462000,2014,1197,"Yes","Manual",65612,1,"Petrol",7,2
+"81","2016 Maruti Celerio ZXI AMT",385000,2016,998,"Yes","Automatic",76727,1,"Petrol",17,3
+"82","2015 Maruti Ertiga ZDI",725000,2015,1248,"No","Manual",74875,1,"Diesel",17,10
+"83","2022 Maruti IGNIS DELTA 1.2",536000,2022,1197,"Yes","Manual",17745,1,"Petrol",1,1
+"84","2022 Maruti Ertiga VXI SHVS",1033000,2022,1462,"No","Manual",9884,1,"Petrol",2,1
+"85","2022 Maruti Ciaz S 1.5 MT PETROL",945000,2022,1462,"Yes","Manual",27376,2,"Petrol",0,0
+"86","2011 Maruti Ritz LXI",184000,2011,1197,"No","Manual",41367,1,"Petrol",0,0
+"87","2012 Maruti Wagon R 1.0 LXI",240000,2012,998,"No","Manual",83474,1,"Petrol",0,0
+"88","2017 Maruti Wagon R 1.0 VXI AMT",421000,2017,998,"Yes","Automatic",19767,1,"Petrol",9,1
+"89","2016 Maruti Swift ZXI",448000,2016,1197,"Yes","Manual",64434,2,"Petrol",17,8
+"90","2018 Maruti IGNIS DELTA 1.2",418000,2018,1197,"No","Manual",94910,1,"Petrol",16,0
+"91","2014 Maruti Wagon R 1.0 VXI",266000,2014,998,"Yes","Manual",72090,1,"Petrol",21,4
+"92","2014 Maruti Wagon R 1.0 LXI",280000,2014,998,"Yes","Manual",67447,1,"Petrol",16,3
+"93","2017 Maruti Swift LXI (O)",410000,2017,1197,"Yes","Manual",88225,1,"CNG",0,0
+"94","2016 Maruti Swift Dzire VXI",513000,2016,1197,"Yes","Manual",58570,2,"Petrol",10,3
+"95","2015 Maruti Wagon R 1.0 VXI",305000,2015,998,"No","Manual",28048,2,"Petrol",16,4
+"96","2016 Maruti Baleno DELTA PETROL 1.2",497000,2016,1197,"Yes","Manual",48242,2,"Petrol",8,3
+"97","2017 Maruti Dzire LXI",444000,2017,1197,"Yes","Manual",89378,2,"Petrol",8,8
+"98","2017 Maruti Celerio ZXI AMT",414000,2017,998,"Yes","Automatic",77481,2,"Petrol",12,4
+"99","2014 Maruti Alto K10 VXI",299000,2014,998,"No","Manual",49599,1,"Petrol",5,0
+"100","2016 Maruti Wagon R 1.0 VXI",292000,2016,998,"Yes","Manual",121389,1,"Petrol",27,0
+"101","2022 Maruti Baleno ALPHA PETROL 1.2",858000,2022,1197,"No","Manual",31283,1,"Petrol",10,4
+"102","2019 Maruti Ciaz DELTA AT 1.5 SHVS PETROL",839000,2019,1462,"Yes","Automatic",39821,1,"Petrol",5,1
+"103","2015 Maruti Wagon R 1.0 VXI",375000,2015,998,"No","Manual",29956,1,"Petrol",15,1
+"104","2016 Maruti Ciaz ZXI AT",565000,2016,1373,"No","Automatic",96520,2,"Petrol",13,9
+"105","2016 Maruti Baleno DELTA PETROL 1.2",471000,2016,1197,"No","Manual",71982,1,"Petrol",8,4
+"106","2018 Maruti Ciaz DELTA AT 1.5 SHVS PETROL",687000,2018,1462,"Yes","Automatic",45236,2,"Petrol",9,5
+"107","2023 Maruti Alto K10 LXI",472000,2023,998,"No","Manual",16628,1,"Petrol",0,0
+"108","2014 Maruti Wagon R 1.0 VXI",365000,2014,998,"Yes","Manual",22765,1,"Petrol",6,6
+"109","2017 Maruti Wagon R 1.0 LXI CNG",376000,2017,998,"Yes","Manual",56359,2,"CNG",9,4
+"110","2019 Maruti Baleno ALPHA CVT PETROL 1.2",708000,2019,1197,"Yes","Automatic",14032,2,"Petrol",5,0
+"111","2022 Maruti Alto LXI O",384000,2022,796,"No","Manual",18317,1,"Petrol",1,0
+"112","2015 Maruti Wagon R 1.0 VXI",338000,2015,998,"No","Manual",16624,1,"Petrol",5,2
+"113","2015 Maruti Ciaz ZXI AT",480000,2015,1373,"No","Automatic",83683,2,"Petrol",14,5
+"114","2016 Maruti Baleno DELTA PETROL 1.2",481000,2016,1197,"Yes","Manual",59200,1,"Petrol",2,6
+"115","2016 Maruti Celerio ZXI AMT",374000,2016,998,"Yes","Automatic",84574,1,"Petrol",10,8
+"116","2018 Maruti Dzire VDI",635000,2018,1248,"No","Manual",83762,2,"Diesel",0,0
+"117","2019 Maruti Alto LXI",329000,2019,796,"No","Manual",43424,1,"Petrol",11,2
+"118","2017 Maruti Alto K10 VXI (O) AMT",345000,2017,998,"Yes","Automatic",67823,2,"Petrol",3,3
+"119","2016 Maruti Alto K10 VXI AMT",317000,2016,998,"No","Automatic",85292,1,"Petrol",5,9
+"120","2019 Maruti Dzire VXI",683000,2019,1197,"No","Manual",58029,1,"Petrol",2,0
+"121","2017 Maruti Wagon R 1.0 VXI OPT",371000,2017,998,"Yes","Manual",43944,2,"Petrol",14,0
+"122","2016 Maruti Alto 800 LXI",221000,2016,796,"Yes","Manual",97698,2,"Petrol",14,6
+"123","2013 Maruti Swift Dzire ZDI",438000,2013,1248,"Yes","Manual",120050,1,"Diesel",25,16
+"124","2017 Maruti Dzire VDI",610000,2017,1248,"Yes","Manual",72753,1,"Diesel",9,1
+"125","2014 Maruti Swift Dzire VXI",390000,2014,1197,"Yes","Manual",42022,1,"Petrol",13,7
+"126","2021 Maruti Baleno DELTA PETROL 1.2",645000,2021,1197,"Yes","Manual",7386,1,"Petrol",4,0
+"127","2017 Maruti Alto 800 LXI",277000,2017,796,"Yes","Manual",49061,1,"Petrol",10,5
+"128","2013 Maruti Wagon R 1.0 LXI CNG",294000,2013,998,"Yes","Manual",115715,1,"CNG",15,2
+"129","2020 Maruti Ciaz ALPHA AT 1.5 SHVS PETROL",873000,2020,1462,"Yes","Automatic",45058,1,"Petrol",1,0
+"130","2021 Maruti Celerio ZXI PLUS",651000,2021,998,"No","Manual",8254,1,"Petrol",5,0
+"131","2015 Maruti Alto K10 VXI AMT",319000,2015,998,"No","Automatic",30634,1,"Petrol",10,6
+"132","2022 Maruti BREZZA ZXI SMART HYBRID",1159000,2022,1462,"Yes","Manual",5377,1,"Petrol",1,1
+"133","2020 Maruti S PRESSO VXI+",409000,2020,998,"Yes","Manual",29987,1,"Petrol",7,2
+"134","2016 Maruti Swift Dzire ZXI",518000,2016,1197,"Yes","Manual",86301,2,"Petrol",3,0
+"135","2019 Maruti Celerio VXI",406000,2019,998,"Yes","Manual",63194,1,"Petrol",19,6
+"136","2018 Maruti Baleno ALPHA CVT PETROL 1.2",699000,2018,1197,"Yes","Automatic",15600,1,"Petrol",4,4
+"137","2020 Maruti Baleno DELTA PETROL 1.2",594000,2020,1197,"No","Manual",27841,1,"Petrol",6,3
+"138","2016 Maruti Swift Dzire VXI (O)",515000,2016,1197,"Yes","Manual",34781,1,"Petrol",11,14
+"139","2018 Maruti Celerio ZXI",493000,2018,998,"No","Manual",39085,1,"Petrol",22,4
+"140","2020 Maruti New Wagon-R LXI 1.0",472000,2020,998,"Yes","Manual",20914,1,"Petrol",4,0
+"141","2019 Maruti New Wagon-R LXI CNG 1.0",489000,2019,998,"No","Manual",63339,2,"CNG",0,0
+"142","2018 Maruti Baleno DELTA PETROL 1.2",514000,2018,1197,"Yes","Manual",77148,1,"Petrol",5,3
+"143","2021 Maruti IGNIS ALPHA 1.2 AMT",758000,2021,1197,"No","Automatic",29003,1,"Petrol",1,0
+"144","2022 Maruti Alto LXI O",390000,2022,796,"Yes","Manual",24676,1,"Petrol",2,0
+"145","2018 Maruti Baleno ALPHA CVT PETROL 1.2",660000,2018,1197,"Yes","Automatic",59613,2,"Petrol",17,1
+"146","2022 Maruti XL6 ZETA MT",973000,2022,1462,"Yes","Manual",49458,1,"Petrol",4,1
+"147","2012 Maruti Wagon R 1.0 LXI",266000,2012,998,"Yes","Manual",79028,1,"Petrol",26,3
+"148","2021 Maruti Ciaz ALPHA AT 1.5 SHVS PETROL",904000,2021,1462,"Yes","Automatic",37265,1,"Petrol",7,7
+"149","2017 Maruti Baleno ALPHA PETROL 1.2",503000,2017,1197,"Yes","Manual",65806,1,"Petrol",28,6
+"150","2021 Maruti IGNIS SIGMA 1.2",479000,2021,1197,"Yes","Manual",17472,1,"Petrol",11,9
+"151","2018 Maruti Ciaz ZETA 1.4 AT PETROL",765000,2018,1373,"No","Automatic",50334,2,"Petrol",22,5
+"152","2020 Maruti New Wagon-R LXI CNG (O) 1.0",487000,2020,998,"Yes","Manual",65081,1,"CNG",9,10
+"153","2015 Maruti Ertiga ZXI",700000,2015,1373,"No","Manual",46440,1,"Petrol",3,1
+"154","2022 Maruti New Wagon-R VXI 1.0 AMT",592000,2022,998,"Yes","Automatic",22666,1,"Petrol",19,0
+"155","2017 Maruti Swift VXI",561000,2017,1197,"No","Manual",25847,2,"Petrol",6,2
+"156","2016 Maruti Ciaz VXI",419000,2016,1373,"Yes","Manual",123772,1,"Petrol",36,4
+"157","2018 Maruti Celerio ZXI AMT (O)",445000,2018,998,"Yes","Automatic",80488,2,"Petrol",10,6
+"158","2022 Maruti New Wagon-R VXI 1.0 AMT",620000,2022,1197,"No","Automatic",9301,1,"Petrol",0,0
+"159","2022 Maruti S PRESSO VXI+",490000,2022,998,"Yes","Manual",35049,1,"Petrol",0,0
+"160","2011 Maruti Wagon R 1.0 VXI",275000,2011,998,"Yes","Manual",34408,2,"Petrol",6,3
+"161","2017 Maruti Baleno DELTA PETROL 1.2",489000,2017,1197,"Yes","Manual",46407,1,"Petrol",11,2
+"162","2017 Maruti Alto 800 LXI",313000,2017,796,"Yes","Manual",23280,1,"Petrol",0,0
+"163","2020 Maruti IGNIS ZETA 1.2 AMT",547000,2020,1197,"No","Automatic",58158,1,"Petrol",6,6
+"164","2019 Maruti Baleno ZETA CVT PETROL 1.2",681000,2019,1197,"Yes","Automatic",15895,1,"Petrol",10,2
+"165","2015 Maruti Celerio VXI",303000,2015,998,"Yes","Manual",75874,1,"Petrol",7,1
+"166","2021 Maruti New Wagon-R LXI CNG (O) 1.0",585000,2021,998,"Yes","Manual",51151,1,"CNG",3,1
+"167","2015 Maruti Ciaz ZXI",507000,2015,1373,"No","Manual",50022,1,"Petrol",5,2
+"168","2016 Maruti Ciaz VXI",493000,2016,1373,"Yes","Manual",60410,1,"Petrol",7,2
+"169","2013 Maruti Wagon R Stingray VXI",295000,2013,998,"No","Manual",35954,1,"Petrol",25,3
+"170","2011 Maruti Alto K10 VXI",154000,2011,998,"No","Manual",63048,1,"Petrol",33,3
+"171","2018 Maruti Swift VXI",577000,2018,1197,"No","Manual",37330,2,"Petrol",14,5
+"172","2020 Maruti S PRESSO VXI (O) AMT",454000,2020,998,"Yes","Automatic",13440,1,"Petrol",13,0
+"173","2014 Maruti Wagon R 1.0 LXI",326000,2014,998,"No","Manual",53063,2,"Petrol",11,5
+"174","2016 Maruti Swift LXI (O)",337000,2016,1197,"No","Manual",69235,3,"Petrol",0,0
+"175","2018 Maruti Wagon R 1.0 LXI CNG",390000,2018,998,"Yes","Manual",56257,1,"CNG",0,0
+"176","2014 Maruti Celerio VXI AMT",372000,2014,998,"Yes","Automatic",71320,1,"Petrol",0,0
+"177","2022 Maruti Vitara Brezza LXI",700000,2022,1462,"Yes","Manual",36045,1,"Petrol",3,0
+"178","2019 Maruti Swift LXI",455000,2019,1197,"No","Manual",57073,1,"Petrol",7,15
+"179","2011 Maruti Swift VXI",218000,2011,1197,"Yes","Manual",68075,1,"Petrol",30,6
+"180","2012 Maruti Swift Dzire VXI",362000,2012,1197,"Yes","Manual",64036,1,"Petrol",2,4
+"181","2022 Maruti Ertiga VXI AT SHVS",1084000,2022,1462,"Yes","Automatic",35378,1,"Petrol",2,3
+"182","2016 Maruti Celerio ZXI AMT",379000,2016,998,"No","Automatic",37597,2,"Petrol",5,0
+"183","2011 Maruti Ritz VXI",182000,2011,1197,"Yes","Manual",43506,1,"Petrol",0,0
+"184","2014 Maruti Wagon R 1.0 LXI",327000,2014,998,"Yes","Manual",115256,1,"CNG",22,6
+"185","2020 Maruti Ciaz ALPHA AT 1.5 SHVS PETROL",956000,2020,1462,"No","Automatic",12867,1,"Petrol",2,0
+"186","2017 Maruti Baleno ALPHA PETROL 1.2",662000,2017,1197,"No","Manual",57040,1,"Petrol",10,4
+"187","2012 Maruti Swift VXI",388000,2012,1197,"No","Manual",97699,1,"Petrol",0,0
+"188","2019 Maruti Swift ZXI PLUS AMT",612000,2019,1197,"Yes","Automatic",90696,1,"Petrol",18,1
+"189","2017 Maruti IGNIS ZETA 1.2",484000,2017,1197,"Yes","Manual",63716,1,"Petrol",5,0
+"190","2016 Maruti Ciaz ZXI",528000,2016,1373,"No","Manual",57286,1,"Petrol",8,12
+"191","2014 Maruti Ertiga VDI",591000,2014,1248,"Yes","Manual",119998,2,"Diesel",18,5
+"192","2015 Maruti Baleno DELTA DIESEL 1.3",581000,2015,1248,"No","Manual",63916,2,"Diesel",8,1
+"193","2019 Maruti S PRESSO VXI AMT",452000,2019,998,"No","Automatic",20840,1,"Petrol",9,3
+"194","2015 Maruti Celerio ZXI",453000,2015,998,"Yes","Manual",69645,1,"Petrol",10,6
+"195","2018 Maruti Celerio X ZXI AMT",494000,2018,998,"Yes","Automatic",14268,1,"Petrol",7,2
+"196","2019 Maruti New Wagon-R VXI 1.2 AMT",615000,2019,1197,"No","Automatic",16416,2,"Petrol",7,0
+"197","2012 Maruti Swift Dzire VXI",376000,2012,1197,"Yes","Manual",104807,3,"Petrol",0,0
+"198","2018 Maruti Baleno ZETA CVT PETROL 1.2",592000,2018,1197,"No","Automatic",64827,1,"Petrol",3,9
+"199","2015 Maruti Celerio ZXI (O)",375000,2015,998,"Yes","Manual",27204,1,"Petrol",16,4
+"200","2019 Maruti New Wagon-R VXI (O) 1.2 AMT",502000,2019,1197,"No","Automatic",98073,1,"Petrol",10,13
