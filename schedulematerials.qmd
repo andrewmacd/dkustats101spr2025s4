@@ -139,7 +139,7 @@ Topics covered:
 
 ## Lab 2.2: Working with regressions using `dplyr` (Wednesday, April 2)
 
--   Lab files: [Lab 2.2]
+-   Lab files: [Lab 2.2](labs/Lab 2.2/lab.2.2.zip)
     -   Make sure to extract (unzip) the lab files before attempting to modify them!
 
 ## Online lab 2.2 (due on Friday, April 4 at 23:59:00)
