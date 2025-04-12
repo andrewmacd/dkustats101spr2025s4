@@ -197,9 +197,7 @@ Topics covered:
 
 -   Lecture activity: [Lecture 3.1 activity](activities/Lecture 3.1/lecture.3.1.activity.zip)
 
-## Lecture 3.2: Confidence intervals - means (Tuesday, April 15)
-
-**Note**: no class on Monday
+## Lecture 3.2: Confidence intervals - means (Monday & Tuesday, April 14, 15)
 
 Reading to do before class: Chapter 14
 
@@ -236,7 +234,9 @@ Topics covered:
 -   Lab files: [Lab 3.1]
     -   Make sure to extract (unzip) the lab files before attempting to modify them!
 
-## Lecture 3.4: Hypothesis testing wisdom (Monday & Tuesday, April 21, 22)
+** Note: no class on Monday, April 21st
+
+## Lecture 3.4: Hypothesis testing wisdom (Tuesday, April 22)
 
 Reading to do before class: Chapter 16
 
@@ -276,7 +276,10 @@ Topics covered:
 
 -   Lecture activity: [Lecture 4.1 activity]
 
-## No lab Wednesday, April 23
+## Lab 3.1: Comparing groups activity (Wednesday, April 23)
+
+-   Lab files: [Lab 3.2]
+    -   Make sure to extract (unzip) the lab files before attempting to modify them!
 
 ## In-class Unit 3 exam: Thursday, Thursday, April 24
 
