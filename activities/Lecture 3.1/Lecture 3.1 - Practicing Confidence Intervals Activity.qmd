@@ -31,12 +31,12 @@ Now let's sample from the dataset. We can sample whether or not they survived by
 
 ```
 titanic_n50 <- titanic_survival %>% 
-  slice_sample(survivedindicator, n=50) 
+  slice_sample(n=50) 
 ```
 
 Create a sample of size 50 and 200.
 
-2.  Calculate by hand the standard deviation and 95% confidence interval for `survivedindicator` of your sample of 50 and 200.
+2.  Calculate by hand the standard error and 95% confidence interval for `survivedindicator` of your sample of 50 and 200.
 
 3.  Interpret these confidence intervals
 
