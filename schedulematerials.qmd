@@ -213,6 +213,8 @@ Topics covered:
 
 -   Lecture webpage: [Lecture 3.2](lectures/lecture.3.2.html)
 
+-   Lecture activity: [Lecture 3.2](activities/Lecture 3.2/lecture.3.2.activity.zip)
+
 ## Lecture 3.3: Hypothesis testing (Wednesday & Thursday, April 16, 17)
 
 Reading to do before class: Chapter 15
