@@ -227,7 +227,7 @@ Topics covered:
 
 -   $p$ values and decisions -- how to make a decision
 
--   Lecture webpage: [Lecture 3.3]
+-   Lecture webpage: [Lecture 3.3](lectures/lecture.3.3.html)
 
 -   Lecture activity: [Lecture 3.3 activity]
 

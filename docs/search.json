@@ -252,69 +252,6 @@
     "text": "Margin of error: certainty vs. precision\n\nMargin of error\n\nConfidence interval for a population proportion: p̂±2×SE(p̂)\\hat{p} \\pm 2\\times SE(\\hat{p})\nThe distance, 2×SE(p̂)~2\\times SE(\\hat{p}), from p̂\\hat{p} is called the margin of error\nConfidence intervals can be applied to many statistics, not just means. Regression slopes and other quantities can also have confidence intervals.\n\nIn general, a confidence interval has the form estimate ±\\pm margin of error\n\n\n\n\nCertainty vs. precision\n\nCompeting goals\n\nMore certainty, need to capture pp more often, need to make the interval wider.\nMore precise, need to provider tighter bounds on our estimate for pp, need to make the interval narrower\n\nInstead of a 95% confidence interval, any percent can be used.\n\nIncreasing the confidence (e.g. 99%) increases the margin of error.\n\nNeed to make our range wider to make sure we don’t ‘miss’\n\nDecreasing the confidence (e.g. 90%) decreases the margin of error.\n\nNeed to make our range smaller so as to be more specific about our guess\n\n\n\n\n\nWhat sample size?\n\nCan increase both certainty and precision by increasing sample size\nFor 95%, z*z^* = 1.96\nValues that make ME largest are p̂=0.5\\hat{p}=0.5\nIf we want to ensure, say, a margin of error of &lt;3&lt;3%\n\nME=z×p̂(1−p̂)nME = z\\times \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}\n0.03=1.96×(0.5)(0.5)n0.03 = 1.96\\times \\sqrt{\\frac{(0.5)(0.5)}{n}}\n\nSolving for nn, gives n≈1067.1n\\approx1067.1\nWe need to survey at least 1068 to ensure a ME less than 0.03 for the 95% confidence interval.\n\n\n\nThoughts on sample size and ME\n\nObtaining a large sample size can be expensive and/or take a long time.\nFor a pilot study, ME=10ME = 10% can be acceptable.\nFor full studies, ME&lt;5ME &lt; 5% is better.\nPublic opinion polls typically use ME=3ME = 3%, n=1000n = 1000\nIf pp is expected to be very small such as 0.005, then much smaller ME such as 0.1% is required.\n\nCommon in medical studies"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Course Introduction",
-    "section": "",
-    "text": "Monday/Tuesday/Wednesday/Thursday class at 1:15 pm to 2:30 pm in AB1087\nWednesday lab 6:00 pm to 7:15 pm in AB1087\nOffice hours -\n\nMonday 3:00 pm to 5:00 pm in WDR 3114\nWednesday 3:00 pm to 5:00 pm in WDR 3114\n\nHomeworks are all due at 11:59 pm\nAll other announcements and information are posted on the class Teams site"
-  },
-  {
-    "objectID": "index.html#assessment",
-    "href": "index.html#assessment",
-    "title": "Course Introduction",
-    "section": "Assessment",
-    "text": "Assessment\n\nBeginning of class warmup quiz 10%: At the start of each class session there will be a series of short online questions to start discussion of the class material. I will drop your two lowest quiz grades. I will also curve the grade such that the student with the highest overall quiz grade will receive 100% and all other students will receive a corresponding boost to their grade.\nHomework 60%: At the end of the first two groups of content, a homework will be assigned that will ask you to analyze a dataset and answer questions related to that concept group. These homeworks are due at the noted date at 11:59 pm China time. Each homework will also have a best graph contest, where the person whose classmates vote as having the best graph wins some extra credit points.\n\nHomework 1: 15%\nHomework 2: 20%\nFinal project: 25%\n\nHomework checks 3%: To make sure you are making good progress on your homework, the Sunday before the homework is due (except for the first homework) you will be required to submit your progress on the homework so far. You are required to have tried to have answered all the questions covered by the lectures and textbook up to the specified cutoff. I will not check your answers but rather check to see if you have made a good effort to answer all the questions derived from the material already covered. If you have a reasonable answer for each question checked you will get full points. If you have not made an effort to answer all the questions reviewed you will get a zero.\nUnit 3 exam 20%: Unit 3 comprehension is better checked through an in-class exam. The exam will be open notes but closed book and will take place during the normal lab session that week.\nData Camp labs 5%: A number of labs on the website Data Camp will be assigned to you; these labs are pass/fail and you will receive full credit if you complete each of the labs by the specified due date.\nSyllabus quiz 1%: A short quiz after the first class regarding the course requirements.\nExtra credit maximum 3%: You have several opportunities to earn extra credit. There will be three graph contests, whereby the student who is voted by the other students as having the best graph will receive extra credit points. You can also earn some extra credit by replying to other students who post problems in the Discussion section of the Canvas websiteHomework help` section of Teams."
-  },
-  {
-    "objectID": "index.html#lateness-policy",
-    "href": "index.html#lateness-policy",
-    "title": "Course Introduction",
-    "section": "Lateness policy",
-    "text": "Lateness policy\nSince the course moves very quickly, if you are submitting work late that means you are falling behind on other material and it may be difficult for you to recover. Therefore, I have a fairly strict lateness policy.\n\nAll major assignments are due at 11:59:00 pm. Not 11:59:01 or 11:59:31.\nIf it is later than 11:59:00 pm, then the assignment will be assessed a 5% lateness penalty\nIf it is later than 12:29:00 am, then the assignment will be assessed a 10% lateness penalty\nIf it is later than 11:59:00 pm the next day, the assignment will be assessed a 50% lateness penalty\nIf it is later than 2 days from the due date, I will no longer accept the assignment\n\n\nPlease be sure to check that your homework is complete and make sure to submit it a few minutes early. You can submit multiple times on Teams so make sure you have a nearly complete version uploaded even if you want to keep working on it right up to the deadline. I will not be sympathetic to messages that complain of computer problems when you are trying to submit for the first time at 11:58:51 pm."
-  },
-  {
-    "objectID": "index.html#attendance-policy",
-    "href": "index.html#attendance-policy",
-    "title": "Course Introduction",
-    "section": "Attendance Policy",
-    "text": "Attendance Policy\nClass will be highly interactive and therefore it is to your advantage to attend class.\nIf you have an unexcused absence from class on Monday or Wednesday, the warmup quiz cannot be made up. If you need to miss class and pre-arrange the absence, there will be a makeup assignment you will need to complete before the start of the next class. If you complete the makeup assignment and submit it in time, the warmup quiz will be excused.\nIf you have an unexcused absence from class on Tuesday, Thursday, or Wednesday lab, your previous warmup quiz will be marked as a zero. If you have an excused absence, makeup work will be assigned."
-  },
-  {
-    "objectID": "index.html#contact-policy",
-    "href": "index.html#contact-policy",
-    "title": "Course Introduction",
-    "section": "Contact Policy",
-    "text": "Contact Policy\n\nI usually try to reply to DMs on the same day (though not in the evenings), however responses may be slower on the weekend\nDo not DM me 2 hours before a homework is due and expect an immediate response!\nFor general questions, such as how should one interpret a question on a homework or quiz, or help on debugging, you should ask the Homework help channel in Teams. That way others can benefit from the response or someone else may be able to answer more quickly than I can. If you DM me a question that really belongs in the help channel I will ask you to repost it there.\nMany questions can be answered by carefully checking the class website or reviewing the materials on Teams. If in doubt, though, feel free to ask."
-  },
-  {
-    "objectID": "index.html#chatgpt-and-similar-policy",
-    "href": "index.html#chatgpt-and-similar-policy",
-    "title": "Course Introduction",
-    "section": "ChatGPT (and similar) Policy",
-    "text": "ChatGPT (and similar) Policy\nUnless otherwise specified on an assignment, you may use ChatGPT as much as you wish. However, most of the assignments in this class are not very amenable to ChatGPT help. Your main grade will be understanding, annotating, and interpreting your output. Producing the output is the very simple minimal requirement. Also, ChatGPT often makes many coding mistakes. If you rely too much on ChatGPT to code, you will not understand when it makes mistakes and why it makes mistakes."
-  },
-  {
-    "objectID": "index.html#academic-dishonesty-policy",
-    "href": "index.html#academic-dishonesty-policy",
-    "title": "Course Introduction",
-    "section": "Academic Dishonesty Policy",
-    "text": "Academic Dishonesty Policy\nDon’t cheat. Don’t be that person. Yes, you. You know exactly what I’m talking about too.\nMore specifically, you are expected to strictly adhere to the Duke Kunshan University Community Standard in all of your work and participation, and violations will be enforced. More details can be found here.\nAll work must be done exclusively by the individual to whom it has been assigned. You should assume that collaboration on assignments, the use of previously-assigned homework, quizzes and answer keys, outside sources or outside aids (both written and electronic) are not allowed unless explicitly noted in the assignment guidelines or in this syllabus. All cases of suspected cheating will be referred for adjudication to the Dean’s Office. Any violation for which a student is found responsible is considered grounds for failure in the course.\nIt may sound cliché to say, but if you cheat and borrow other’s code or answers you are only cheating yourself; you will not learn how to do statistics and doing so will mean you will do worse on the midterm and the final anyway. Cheating is ultimately self-defeating so for both of our benefit, please, don’t do it. If you are having trouble completing the assignment and feel tempted to cheat, please contact me directly instead with the difficulties you are having."
-  },
-  {
-    "objectID": "index.html#disabilities-policy",
-    "href": "index.html#disabilities-policy",
-    "title": "Course Introduction",
-    "section": "Disabilities Policy",
-    "text": "Disabilities Policy\nIf you need an accommodation due to a disability, you should not hesitate to request one. The process is that requests should be sent to the Dean of Undergraduate Studies, who will contact me with recommended type of accommodation that is needed. You do not need to disclose your reason for requesting an accommodation with me, and asking through the Dean of Undergraduate Studies helps make things official for both you and me."
-  },
-  {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "Homework",
-    "section": "",
-    "text": "Unit 1 homework check (due Sunday, March 21 at 23:59:00)\n\nUnit 1 homework\n\n\n\nUnit 1 homework (due Sunday, March 28 at 23:59:00)\n\n[Unit 1 homework sample solutions]\n\n\n\nUnit 2 homework check (due Sunday, April 6th at 23:59:00)\n\nUnit 2 homework\n\n\n\nUnit 2 homework (due Sunday, April 13 at 23:59:00)\n\n[Unit 2 homework sample solutions]\n\n\n\nUnit 3 exam (Wednesday, April 23 from 2:45 to 4:00 pm)\n\n[Unit 3 exam solutions]\n\n\n\nFinal exam homework check (due Friday, May 2 at 23:59:00)\n\n[Final project]\n\n\n\nFinal project (due Wednesday, May 7 at 23:59:00)"
-  },
-  {
     "objectID": "schedulematerials.html",
     "href": "schedulematerials.html",
     "title": "Course Schedule and Class Materials",
@@ -466,7 +403,7 @@
     "href": "schedulematerials.html#lecture-3.3-hypothesis-testing-wednesday-thursday-april-16-17",
     "title": "Course Schedule and Class Materials",
     "section": "Lecture 3.3: Hypothesis testing (Wednesday & Thursday, April 16, 17)",
-    "text": "Lecture 3.3: Hypothesis testing (Wednesday & Thursday, April 16, 17)\nReading to do before class: Chapter 15\nTopics covered:\n\nWhat are hypotheses?\n\\(p\\) values\n\\(p\\) values and decisions – how to make a decision\nLecture webpage: [Lecture 3.3]\nLecture activity: [Lecture 3.3 activity]"
+    "text": "Lecture 3.3: Hypothesis testing (Wednesday & Thursday, April 16, 17)\nReading to do before class: Chapter 15\nTopics covered:\n\nWhat are hypotheses?\n\\(p\\) values\n\\(p\\) values and decisions – how to make a decision\nLecture webpage: Lecture 3.3\nLecture activity: [Lecture 3.3 activity]"
   },
   {
     "objectID": "schedulematerials.html#lab-3.1-bootstrapping-wednesday-april-16",
@@ -537,6 +474,111 @@
     "title": "Course Schedule and Class Materials",
     "section": "Final project (due Wednesday, May 7 at 23:59:00)",
     "text": "Final project (due Wednesday, May 7 at 23:59:00)\n\nHomework files: [Final project instructions]"
+  },
+  {
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Homework",
+    "section": "",
+    "text": "Unit 1 homework check (due Sunday, March 21 at 23:59:00)\n\nUnit 1 homework\n\n\n\nUnit 1 homework (due Sunday, March 28 at 23:59:00)\n\n[Unit 1 homework sample solutions]\n\n\n\nUnit 2 homework check (due Sunday, April 6th at 23:59:00)\n\nUnit 2 homework\n\n\n\nUnit 2 homework (due Sunday, April 13 at 23:59:00)\n\n[Unit 2 homework sample solutions]\n\n\n\nUnit 3 exam (Wednesday, April 23 from 2:45 to 4:00 pm)\n\n[Unit 3 exam solutions]\n\n\n\nFinal exam homework check (due Friday, May 2 at 23:59:00)\n\n[Final project]\n\n\n\nFinal project (due Wednesday, May 7 at 23:59:00)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Course Introduction",
+    "section": "",
+    "text": "Monday/Tuesday/Wednesday/Thursday class at 1:15 pm to 2:30 pm in AB1087\nWednesday lab 6:00 pm to 7:15 pm in AB1087\nOffice hours -\n\nMonday 3:00 pm to 5:00 pm in WDR 3114\nWednesday 3:00 pm to 5:00 pm in WDR 3114\n\nHomeworks are all due at 11:59 pm\nAll other announcements and information are posted on the class Teams site"
+  },
+  {
+    "objectID": "index.html#assessment",
+    "href": "index.html#assessment",
+    "title": "Course Introduction",
+    "section": "Assessment",
+    "text": "Assessment\n\nBeginning of class warmup quiz 10%: At the start of each class session there will be a series of short online questions to start discussion of the class material. I will drop your two lowest quiz grades. I will also curve the grade such that the student with the highest overall quiz grade will receive 100% and all other students will receive a corresponding boost to their grade.\nHomework 60%: At the end of the first two groups of content, a homework will be assigned that will ask you to analyze a dataset and answer questions related to that concept group. These homeworks are due at the noted date at 11:59 pm China time. Each homework will also have a best graph contest, where the person whose classmates vote as having the best graph wins some extra credit points.\n\nHomework 1: 15%\nHomework 2: 20%\nFinal project: 25%\n\nHomework checks 3%: To make sure you are making good progress on your homework, the Sunday before the homework is due (except for the first homework) you will be required to submit your progress on the homework so far. You are required to have tried to have answered all the questions covered by the lectures and textbook up to the specified cutoff. I will not check your answers but rather check to see if you have made a good effort to answer all the questions derived from the material already covered. If you have a reasonable answer for each question checked you will get full points. If you have not made an effort to answer all the questions reviewed you will get a zero.\nUnit 3 exam 20%: Unit 3 comprehension is better checked through an in-class exam. The exam will be open notes but closed book and will take place during the normal lab session that week.\nData Camp labs 5%: A number of labs on the website Data Camp will be assigned to you; these labs are pass/fail and you will receive full credit if you complete each of the labs by the specified due date.\nSyllabus quiz 1%: A short quiz after the first class regarding the course requirements.\nExtra credit maximum 3%: You have several opportunities to earn extra credit. There will be three graph contests, whereby the student who is voted by the other students as having the best graph will receive extra credit points. You can also earn some extra credit by replying to other students who post problems in the Discussion section of the Canvas websiteHomework help` section of Teams."
+  },
+  {
+    "objectID": "index.html#lateness-policy",
+    "href": "index.html#lateness-policy",
+    "title": "Course Introduction",
+    "section": "Lateness policy",
+    "text": "Lateness policy\nSince the course moves very quickly, if you are submitting work late that means you are falling behind on other material and it may be difficult for you to recover. Therefore, I have a fairly strict lateness policy.\n\nAll major assignments are due at 11:59:00 pm. Not 11:59:01 or 11:59:31.\nIf it is later than 11:59:00 pm, then the assignment will be assessed a 5% lateness penalty\nIf it is later than 12:29:00 am, then the assignment will be assessed a 10% lateness penalty\nIf it is later than 11:59:00 pm the next day, the assignment will be assessed a 50% lateness penalty\nIf it is later than 2 days from the due date, I will no longer accept the assignment\n\n\nPlease be sure to check that your homework is complete and make sure to submit it a few minutes early. You can submit multiple times on Teams so make sure you have a nearly complete version uploaded even if you want to keep working on it right up to the deadline. I will not be sympathetic to messages that complain of computer problems when you are trying to submit for the first time at 11:58:51 pm."
+  },
+  {
+    "objectID": "index.html#attendance-policy",
+    "href": "index.html#attendance-policy",
+    "title": "Course Introduction",
+    "section": "Attendance Policy",
+    "text": "Attendance Policy\nClass will be highly interactive and therefore it is to your advantage to attend class.\nIf you have an unexcused absence from class on Monday or Wednesday, the warmup quiz cannot be made up. If you need to miss class and pre-arrange the absence, there will be a makeup assignment you will need to complete before the start of the next class. If you complete the makeup assignment and submit it in time, the warmup quiz will be excused.\nIf you have an unexcused absence from class on Tuesday, Thursday, or Wednesday lab, your previous warmup quiz will be marked as a zero. If you have an excused absence, makeup work will be assigned."
+  },
+  {
+    "objectID": "index.html#contact-policy",
+    "href": "index.html#contact-policy",
+    "title": "Course Introduction",
+    "section": "Contact Policy",
+    "text": "Contact Policy\n\nI usually try to reply to DMs on the same day (though not in the evenings), however responses may be slower on the weekend\nDo not DM me 2 hours before a homework is due and expect an immediate response!\nFor general questions, such as how should one interpret a question on a homework or quiz, or help on debugging, you should ask the Homework help channel in Teams. That way others can benefit from the response or someone else may be able to answer more quickly than I can. If you DM me a question that really belongs in the help channel I will ask you to repost it there.\nMany questions can be answered by carefully checking the class website or reviewing the materials on Teams. If in doubt, though, feel free to ask."
+  },
+  {
+    "objectID": "index.html#chatgpt-and-similar-policy",
+    "href": "index.html#chatgpt-and-similar-policy",
+    "title": "Course Introduction",
+    "section": "ChatGPT (and similar) Policy",
+    "text": "ChatGPT (and similar) Policy\nUnless otherwise specified on an assignment, you may use ChatGPT as much as you wish. However, most of the assignments in this class are not very amenable to ChatGPT help. Your main grade will be understanding, annotating, and interpreting your output. Producing the output is the very simple minimal requirement. Also, ChatGPT often makes many coding mistakes. If you rely too much on ChatGPT to code, you will not understand when it makes mistakes and why it makes mistakes."
+  },
+  {
+    "objectID": "index.html#academic-dishonesty-policy",
+    "href": "index.html#academic-dishonesty-policy",
+    "title": "Course Introduction",
+    "section": "Academic Dishonesty Policy",
+    "text": "Academic Dishonesty Policy\nDon’t cheat. Don’t be that person. Yes, you. You know exactly what I’m talking about too.\nMore specifically, you are expected to strictly adhere to the Duke Kunshan University Community Standard in all of your work and participation, and violations will be enforced. More details can be found here.\nAll work must be done exclusively by the individual to whom it has been assigned. You should assume that collaboration on assignments, the use of previously-assigned homework, quizzes and answer keys, outside sources or outside aids (both written and electronic) are not allowed unless explicitly noted in the assignment guidelines or in this syllabus. All cases of suspected cheating will be referred for adjudication to the Dean’s Office. Any violation for which a student is found responsible is considered grounds for failure in the course.\nIt may sound cliché to say, but if you cheat and borrow other’s code or answers you are only cheating yourself; you will not learn how to do statistics and doing so will mean you will do worse on the midterm and the final anyway. Cheating is ultimately self-defeating so for both of our benefit, please, don’t do it. If you are having trouble completing the assignment and feel tempted to cheat, please contact me directly instead with the difficulties you are having."
+  },
+  {
+    "objectID": "index.html#disabilities-policy",
+    "href": "index.html#disabilities-policy",
+    "title": "Course Introduction",
+    "section": "Disabilities Policy",
+    "text": "Disabilities Policy\nIf you need an accommodation due to a disability, you should not hesitate to request one. The process is that requests should be sent to the Dean of Undergraduate Studies, who will contact me with recommended type of accommodation that is needed. You do not need to disclose your reason for requesting an accommodation with me, and asking through the Dean of Undergraduate Studies helps make things official for both you and me."
+  },
+  {
+    "objectID": "lectures/lecture.3.3.html#hypotheses",
+    "href": "lectures/lecture.3.3.html#hypotheses",
+    "title": "Lecture 3.3 - Hypothesis Testing",
+    "section": "Hypotheses",
+    "text": "Hypotheses\n\nKing county\n\n\n\nOne sided tests\n\n\n\n\nPercent of houses with a view\n\n11% of houses in King County have a view\nPut ourselves in the shoes of a a researcher – we only have a budget to drive around and sample 100 houses in a particular neighborhood\nDoes our sample represent the the idea that the neighborhood we chose to sample has a higher or lower percentage of houses with a view as compared to the overall county?\n\n\n\nHypotheses\n\nThe starting hypothesis to be tested is call the null hypothesis – null because it assumes that nothing has changed.\n\nWe denote it H0H_0\nCalled “H naught”\n\nH0H_0: parameter = hypothesized value\nH0H_0: has.a.view = 0.11\n\n\nThe alternative hypothesis is not a single value, it contains all other values\n\nHAH_A: parameter ≠\\neq hypothesized value\nHAH_A: has.a.view ≠\\neq 0.11\n\n\n\n\nHow small to convince us?\n\nIf the percent of houses with a view in our sample is 16%, we would be skeptical that there was any difference\n\nNot so unlikely to be different only by random chance\n\nIf the percent of houses with a view is 31%, it would clearly indicate a change from 11%\n\nExtremely unlikely that this could happen just by random chance\n\nCan turn to confidence interval\n\nStandard deviation of the sampling distribution\nSD(p)=pqn=0.11×0.89100=0.031SD(p) = \\sqrt{\\frac{pq}{n}} = \\sqrt{\\frac{0.11\\times0.89}{100}} = 0.031\n\n\n\n\nIs the rate of houses with a view different?\n\nIdea: simulation\n\n\n\n\n\n\n\n\n\n\n\nIs the rate of houses with a view different?\n\nIn 95% of samples of this size, percent of houses with a view is within 5% to 17% just by chance\nIn any given sample, should see between 5% and 17% of houses with a view\nIf we surveyed a neighborhood and actually saw 14%\nSurprising?\nShould we conclude that the percent of houses with a view in this neighborhood is different overall compared to King County?\n\n\n\nCLT means we can use the Normal model\n\nCentral Limit Theorem: use Normal model to find probability instead of using a simulation\nView rate of 0.14, 0.03 from null hypothesis, 0.11\nUse the SD = 0.031 to find the area in the tails that lie more than 0.973 zz scores away from the null hypothesis\nIndicates how rare observed rate is\nProbability is 0.165 in each tail, or about 0.33 total that we would get an observation this far or father from the mean by chance\n\n\n\nConclusion\n\nA difference in view percentages of houses of 0.03 or larger would happen about 33% of the time just by chance.\nDoes/Doesn’t seem very unusual.\n\nBoth?\n\nSo observed proportion of 0.14 does/doesn’t provide evidence that this sample has a different percentage of houses with a view\n\nBorderline\n\n\n\n\nA trial as a hypothesis test\n\nBegin with the presumption of innocence (H0H_0)\nCollect evidence\n\nBank money in house\nStill wearing mask\nGetaway car found in his name\n\nEvidence beyond a reasonable doubt?\n\nIs 5% small enough chance?\nHow about 1%?\n6.7%?\n\n\n\n\nA trial as a hypothesis test - decision\n\nBeyond a reasonable doubt - ambiguous\nJury does not use probability to decide.\nNull hypothesis - quantify exactly how surprising the evidence would be if the null hypothesis were true\nHow unlikely is unlikely?\n1 out of 20, 5%, or 0.05\n1 out of 100, 1%, or 0.01\nYou must judge for yourself in each situation whether the probability of observing your data is small enough to constitute “reasonable doubt.”"
+  },
+  {
+    "objectID": "lectures/lecture.3.3.html#p-values",
+    "href": "lectures/lecture.3.3.html#p-values",
+    "title": "Lecture 3.3 - Hypothesis Testing",
+    "section": "pp values",
+    "text": "pp values\n\nThe pp value and surprise\n\nThe pp value is the probability of seeing data like these (or even more unlikely data) given the null hypothesis is true.\nTells us how surprised we would be to get these data given H0H_0 is true.\n\npp value is very low: Either H0H_0 is not true or something remarkable occurred. Reject H0H_0.\npp value is high: Not a surprise. Data consistent with the model. Do not reject H0H_0.\n\n\n\n\nGuilty or not enough evidence?\n\nDefendant is either:\n\nGuilty: pp value too small. The evidence is clear.\nNot Guilty: pp value not small enough. The evidence is not sufficient. Not the same as innocent.\n\nMay be innocent or may be guilty, but not enough evidence found.\n\n\nTwo Choices\n\nFail to reject H0H_0 if pp value large.\n\nNever accept H0H_0.\n\nReject H0H_0 if pp value is small. Accept HAH_A.\n\n\n\n\nWhen the pp value is not small\n\nIt is wrong to say:\n\nAccept H0H_0.\nWe have proven H0H_0.\n\nIt is correct to say:\n\nFail to reject H0H_0\nThere is insufficient evidence to reject H0H_0.\nH0H_0 may or may not be true.\n\nExample: H0H_0: All swans are white.\n\nIf we sample 100 swans that are all white, there could still be a nonwhite swan."
+  },
+  {
+    "objectID": "lectures/lecture.3.3.html#the-reasoning-of-a-hypothesis-test",
+    "href": "lectures/lecture.3.3.html#the-reasoning-of-a-hypothesis-test",
+    "title": "Lecture 3.3 - Hypothesis Testing",
+    "section": "The reasoning of a hypothesis test",
+    "text": "The reasoning of a hypothesis test\n\nStep 1: state the hypothesis\n\nH0H_0:\n\nH0H_0 usually states that there’s nothing different.\nH0:H_0: parameter = hypothesized value\nNote the parameter describes the population not the sample.\nH0H_0 is called the null hypothesis.\n\nHAH_A:\n\nHAH_A is a statement that something has changed, gotten bigger or smaller\nHAH_A is called the alternative hypothesis.\n\n\n\n\nHypotheses about breakfast\n\n\n\nBreakfast study\n\n\nWhat would our hypotheses be if we did a study of DKU students and compared it to the percentage found in this paper (treat it as the population mean)?\n\n\n\n\n\n\n\n\n\n\nHypotheses about breakfast\n\nOur data claims that 65.6% of students don’t eat breakfast.\nIn a survey of 26 students at DKU, 11 ate breakfast.\nIs there evidence that breakfast rate is below 65.6%?\n\nH0:p=0.656H_0: p = 0.656\nHA:p≠0.656H_A: p \\neq 0.656\n\n\n\n\nStep 2: the model\n\nDecide on the model to test the null hypothesis and parameter.\nCheck conditions, e.g. independence, sample size.\nIf the conditions are not met, either quit or redesign the study.\nNormal models use zz scores. Other models may not use zz scores.\nName the model, e.g. 1-proportion zz test.\n\n\n\nStep 2a: 1-proportion zz test\n\nConditions: same as a 1-Proportion zz interval\nNull hypothesis: H0:p=p0H_0: p = p_0\nTest statistics\n\nz=p̂−p0SD(p̂)z = \\frac{\\hat{p}-p_0}{SD(\\hat{p})}\nSE(p̂)=p0q0nSE(\\hat{p}) = \\sqrt{\\frac{p_0q_0}{n}}\n\n\nWhat conditions do we need to check to do a 1-proportion zz test?\n\n\n\n\n\n\n\n\n\n\nStep 2b: checking conditions - eating breakfast\n\nRandomization Condition: The 26 students were a random selection of DKU students\n10% Condition: 26 is fewer than 10% of the total number of all students who are of interest.\nSuccess/Failure Condition:\nnp0=(26)(0.656)=17&gt;10np_0 = (26)(0.656) = 17 &gt; 10?\nnq0=(26)(0.344)=9&gt;10nq_0 = (26)(0.344) = 9 &gt; 10?\nThe conditions are satisfied. We can use the Normal model and perform a 1-Proportion z-Test.\n\n\n\nStep 3: mechanics\n\nClaim: 65.6% students eat breakfast.\n\n11 students in our class ate breakfast.\n\nFind pp value\n\nSE(p̂)=0.656⋅0.34426SE(\\hat{p})=\\sqrt{\\frac{0.656\\cdot0.344}{26}}\nzz score of difference = 0.423−0.6560.093=−2.5\\frac{0.423 - 0.656}{0.093} = -2.5\n\nProbability of seeing that large a difference: pnorm(−2.5)→pnorm(-2.5)\\rightarrow 1.2% of the time we will see a difference from the mean this large or larger\n\n98.8% of the time we will see a difference this small or smaller.\nNote: pp values usually reported as “this large or larger”\n\n\nWhat can we conclude from these results?\n\n\n\n\n\n\n\n\n\n\nStep 4: conclusion\n\nIs our sample different than the overall mean of students in the US? pp value = 0.012\nWhat can be concluded? What does the pp value mean?\n\npp value = 0.012 →\\rightarrow Fail to Reject/Reject H0H_0\nThe survey data does not provide strong evidence that the rate that DKU students eat breakfast is different than US average.\nThis should not be the end of the conversation.\nThe next step would be to see if the breakfast eating rate is lower for all classes/among freshman/sophomores/etc."
+  },
+  {
+    "objectID": "lectures/lecture.3.3.html#a-hypothesis-test-for-the-mean",
+    "href": "lectures/lecture.3.3.html#a-hypothesis-test-for-the-mean",
+    "title": "Lecture 3.3 - Hypothesis Testing",
+    "section": "A hypothesis test for the mean",
+    "text": "A hypothesis test for the mean\n\nOne sample tt test for the mean\n\nAssumptions are the same.\nH0:μ=μ0H_0: \\mu=\\mu_0\ntn−1=y‾−μ0SE(y‾)t_{n-1}=\\frac{\\bar{y}-\\mu_0}{SE(\\bar{y})}\nStandard Error of y‾:SE(y‾)=σn\\bar{y}: SE(\\bar{y})=\\frac{\\sigma}{\\sqrt{n}}\nWhen the conditions are met and H0H_0 is true, the statistic follows the Student’s tt Model with n–1n – 1 df.\nUse this model to find the pp value."
+  },
+  {
+    "objectID": "lectures/lecture.3.3.html#interval-and-tests",
+    "href": "lectures/lecture.3.3.html#interval-and-tests",
+    "title": "Lecture 3.3 - Hypothesis Testing",
+    "section": "Interval and tests",
+    "text": "Interval and tests\n\nIntervals and tests\n\nConfidence Intervals\n\nStart with data and find plausible values for the parameter. CI is data-centric.\nAlways 2-sided\n\nHypothesis Tests\n\nUsing CI, is proposed parameter value consistent with interval? Test is model-centric.\n2-sided test: Within the confidence interval means fail to reject H0H_0.\n\npp value = 1 – C is the cutoff.\n\n\n\n\nThe special case with proportions\n\nConfidence intervals\n\nUse p̂\\hat{p} to calculate SE(p̂)=p̂q̂nSE(\\hat{p})=\\sqrt{\\frac{\\hat{p}\\hat{q}}{n}}\n\nHypothesis Tests\n\nUse p̂\\hat{p} to calculate SD(p̂)=pqnSD(\\hat{p})=\\sqrt{\\frac{pq}{n}}\n\n\nIf SE(p̂)SE(\\hat{p}) and SD(p̂)SD(\\hat{p}) are far from each other, the relationship between the confidence interval and the hypothesis test breaks down."
+  },
+  {
+    "objectID": "lectures/lecture.3.3.html#p-values-and-decisions-what-to-tell-about-a-hypothesis-test",
+    "href": "lectures/lecture.3.3.html#p-values-and-decisions-what-to-tell-about-a-hypothesis-test",
+    "title": "Lecture 3.3 - Hypothesis Testing",
+    "section": "pp values and decisions: what to tell about a hypothesis test",
+    "text": "pp values and decisions: what to tell about a hypothesis test\n\nHow small a pp value is small enough?\n\nHow small is small enough is context specific.\nTest to see if a renowned musicologist can distinguish between Mozart and Hayden.\n\npp value of 0.1 may be good enough. Just reaffirming known talent.\n\nA friend claims psychic abilities and can predict heads or tails.\n\nVery small pp value such as 0.01 needed. Breaking scientific theory.\n\n\n\n\nAcceptable pp value depends on result’s importance\n\nProportion of students with full time jobs has increased.\n\nNot that important. pp value = 0.05 will work.\n\nTesting the strength of a bridge based on a sample of concrete quality\n\nLife and death decision. Need a very small pp value\n\nWhether rejecting or failing to reject, always cite the pp value.\nAn accompanying confidence interval helps also.\n\n\n\nRecommendations from the American Statistical Association\n\npp values can indicate how incompatible the data are with a specified statistical model.\npp values do not measure the probability that the studied hypothesis is true, or the probability that the data were produced by random chance alone.\nScientific conclusions and business or policy decisions should not be based only on whether a pp value passes a specific threshold.\nProper inference requires full reporting and transparency.\nA pp value, or statistical significance, does not measure the size of an effect or the importance of a result.\nBy itself, a pp value does not provide a good measure of evidence regarding a model or hypothesis."
   },
   {
     "objectID": "lectures/lecture.1.2.html#distribution-of-common-quantities",
@@ -837,7 +879,7 @@
     "href": "rmanual.html#helpful-summary-functions",
     "title": "R Manual",
     "section": "Helpful summary functions",
-    "text": "Helpful summary functions\n\nSummarizing data\nThe simpliest way to summarize data is the summary() command.\n\nsummary(mtcars$mpg)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  10.40   15.43   19.20   20.09   22.80   33.90 \n\n\nTo develop more complex summary statistics, you can use longer piped structures from dplyr as follows:\n\nmtcars %&gt;%\n  group_by(cyl) %&gt;%\n  summarise(mean = mean(wt), n = n())\n\n# A tibble: 3 × 3\n    cyl  mean     n\n  &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt;\n1     4  2.29    11\n2     6  3.12     7\n3     8  4.00    14\n\n\nTo view more samples of the summarize() function, see here:\nSummarize documetation\n\n\nFinding normal distribution & quantile information\nIf you want to find out details of the normal distribution, there are a suite of function in R that can report the quantile of a specific number of standard deviations from the center of a normal distribution or the reverse.\n\n# What is the amount of area under the normal curve cumulative up to +2 sd from the mean \npnorm(2, mean=0, sd=1)\n\n[1] 0.9772499\n\n# At how many standard deviations away from the mean is 97.5% of the area under the normal curve\nqnorm(0.975, mean=0, sd=1)\n\n[1] 1.959964\n\n\nIf you have an arbitrary distribution (that may not necessarily be normally distributed), you can find a quantile for a given percentage of area under the curve with the quantile() function.\n\n# generate a uniform distribution\ndist&lt;-runif(1000, min=0, max=1)\n\n# theoretically, the quantile should match the probability for a uniform distribution\nquantile(dist, probs=0.5)\n\n      50% \n0.4953734"
+    "text": "Helpful summary functions\n\nSummarizing data\nThe simpliest way to summarize data is the summary() command.\n\nsummary(mtcars$mpg)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n  10.40   15.43   19.20   20.09   22.80   33.90 \n\n\nTo develop more complex summary statistics, you can use longer piped structures from dplyr as follows:\n\nmtcars %&gt;%\n  group_by(cyl) %&gt;%\n  summarise(mean = mean(wt), n = n())\n\n# A tibble: 3 × 3\n    cyl  mean     n\n  &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt;\n1     4  2.29    11\n2     6  3.12     7\n3     8  4.00    14\n\n\nTo view more samples of the summarize() function, see here:\nSummarize documetation\n\n\nFinding normal distribution & quantile information\nIf you want to find out details of the normal distribution, there are a suite of function in R that can report the quantile of a specific number of standard deviations from the center of a normal distribution or the reverse.\n\n# What is the amount of area under the normal curve cumulative up to +2 sd from the mean \npnorm(2, mean=0, sd=1)\n\n[1] 0.9772499\n\n# At how many standard deviations away from the mean is 97.5% of the area under the normal curve\nqnorm(0.975, mean=0, sd=1)\n\n[1] 1.959964\n\n\nIf you have an arbitrary distribution (that may not necessarily be normally distributed), you can find a quantile for a given percentage of area under the curve with the quantile() function.\n\n# generate a uniform distribution\ndist&lt;-runif(1000, min=0, max=1)\n\n# theoretically, the quantile should match the probability for a uniform distribution\nquantile(dist, probs=0.5)\n\n      50% \n0.5118446"
   },
   {
     "objectID": "rmanual.html#frequency-table-and-contingency-table",
