@@ -254,9 +254,9 @@ Topics covered:
 
 - Power of a test
 
--   Lecture webpage: [Lecture 3.4]
+- Ethical issues
 
--   Lecture activity: [Lecture 3.4 activity]
+-   Lecture webpage: [Lecture 3.4](lectures/lecture.3.4.html)
 
 # Unit 4: Statistical inference
 

@@ -73,6 +73,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/live-runtime/live-runtime.js" type="module"></script>
+<link href="site_libs/quarto-contrib/live-runtime/live-runtime.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,6 +102,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -131,10 +135,9 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -185,88 +188,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#general" id="toc-general" class="nav-link active" data-scroll-target="#general">General</a>
-  <ul class="collapse">
-  <li><a href="#install-software" id="toc-install-software" class="nav-link" data-scroll-target="#install-software">Install software</a></li>
-  <li><a href="#notes-on-use" id="toc-notes-on-use" class="nav-link" data-scroll-target="#notes-on-use">Notes on use</a></li>
-  <li><a href="#install-packages" id="toc-install-packages" class="nav-link" data-scroll-target="#install-packages">Install packages</a></li>
-  <li><a href="#keyboard-shortcuts-tips" id="toc-keyboard-shortcuts-tips" class="nav-link" data-scroll-target="#keyboard-shortcuts-tips">Keyboard shortcuts &amp; tips</a></li>
-  <li><a href="#basic-functions" id="toc-basic-functions" class="nav-link" data-scroll-target="#basic-functions">Basic functions</a></li>
-  <li><a href="#piping" id="toc-piping" class="nav-link" data-scroll-target="#piping">Piping</a></li>
-  </ul></li>
-  <li><a href="#data-management" id="toc-data-management" class="nav-link" data-scroll-target="#data-management">Data Management</a>
-  <ul class="collapse">
-  <li><a href="#importing-datasets" id="toc-importing-datasets" class="nav-link" data-scroll-target="#importing-datasets">Importing datasets</a></li>
-  <li><a href="#removing-datasets" id="toc-removing-datasets" class="nav-link" data-scroll-target="#removing-datasets">Removing datasets</a></li>
-  <li><a href="#rename-a-dataset" id="toc-rename-a-dataset" class="nav-link" data-scroll-target="#rename-a-dataset">Rename a dataset</a></li>
-  <li><a href="#dealing-with-factors" id="toc-dealing-with-factors" class="nav-link" data-scroll-target="#dealing-with-factors">Dealing with factors</a></li>
-  <li><a href="#select-and-subset" id="toc-select-and-subset" class="nav-link" data-scroll-target="#select-and-subset">Select and subset</a>
-  <ul class="collapse">
-  <li><a href="#selecting-columns" id="toc-selecting-columns" class="nav-link" data-scroll-target="#selecting-columns">Selecting columns</a></li>
-  <li><a href="#selecting-rows" id="toc-selecting-rows" class="nav-link" data-scroll-target="#selecting-rows">Selecting rows</a></li>
-  </ul></li>
-  <li><a href="#recoding-variables" id="toc-recoding-variables" class="nav-link" data-scroll-target="#recoding-variables">Recoding variables</a></li>
-  <li><a href="#missing-values" id="toc-missing-values" class="nav-link" data-scroll-target="#missing-values">Missing values</a></li>
-  <li><a href="#helpful-summary-functions" id="toc-helpful-summary-functions" class="nav-link" data-scroll-target="#helpful-summary-functions">Helpful summary functions</a>
-  <ul class="collapse">
-  <li><a href="#summarizing-data" id="toc-summarizing-data" class="nav-link" data-scroll-target="#summarizing-data">Summarizing data</a></li>
-  <li><a href="#finding-normal-distribution-quantile-information" id="toc-finding-normal-distribution-quantile-information" class="nav-link" data-scroll-target="#finding-normal-distribution-quantile-information">Finding normal distribution &amp; quantile information</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#tables-plots" id="toc-tables-plots" class="nav-link" data-scroll-target="#tables-plots">Tables &amp; Plots</a>
-  <ul class="collapse">
-  <li><a href="#frequency-table-and-contingency-table" id="toc-frequency-table-and-contingency-table" class="nav-link" data-scroll-target="#frequency-table-and-contingency-table">Frequency table and contingency table</a></li>
-  <li><a href="#histogram" id="toc-histogram" class="nav-link" data-scroll-target="#histogram">Histogram</a></li>
-  <li><a href="#boxplot" id="toc-boxplot" class="nav-link" data-scroll-target="#boxplot">Boxplot</a></li>
-  <li><a href="#bar-chart" id="toc-bar-chart" class="nav-link" data-scroll-target="#bar-chart">Bar chart</a></li>
-  <li><a href="#qq-plot-in-ggplot" id="toc-qq-plot-in-ggplot" class="nav-link" data-scroll-target="#qq-plot-in-ggplot">QQ Plot in ggplot</a></li>
-  <li><a href="#scatterplot-in-ggplot" id="toc-scatterplot-in-ggplot" class="nav-link" data-scroll-target="#scatterplot-in-ggplot">Scatterplot in ggplot</a></li>
-  <li><a href="#correlation-in-ggcorrplot" id="toc-correlation-in-ggcorrplot" class="nav-link" data-scroll-target="#correlation-in-ggcorrplot">Correlation in ggcorrplot</a></li>
-  <li><a href="#adding-features-to-ggplots" id="toc-adding-features-to-ggplots" class="nav-link" data-scroll-target="#adding-features-to-ggplots">Adding features to ggplots</a>
-  <ul class="collapse">
-  <li><a href="#change-the-colors-and-lines" id="toc-change-the-colors-and-lines" class="nav-link" data-scroll-target="#change-the-colors-and-lines">Change the colors and lines</a></li>
-  <li><a href="#add-labels-and-title" id="toc-add-labels-and-title" class="nav-link" data-scroll-target="#add-labels-and-title">Add labels and title</a></li>
-  <li><a href="#add-lines-to-the-graph" id="toc-add-lines-to-the-graph" class="nav-link" data-scroll-target="#add-lines-to-the-graph">Add lines to the graph</a></li>
-  </ul></li>
-  <li><a href="#arrange-multiple-ggplot-plots" id="toc-arrange-multiple-ggplot-plots" class="nav-link" data-scroll-target="#arrange-multiple-ggplot-plots">Arrange multiple ggplot plots</a></li>
-  </ul></li>
-  <li><a href="#multiple-variable-analysis" id="toc-multiple-variable-analysis" class="nav-link" data-scroll-target="#multiple-variable-analysis">Multiple variable analysis</a>
-  <ul class="collapse">
-  <li><a href="#correlation" id="toc-correlation" class="nav-link" data-scroll-target="#correlation">Correlation</a></li>
-  <li><a href="#simple-regression" id="toc-simple-regression" class="nav-link" data-scroll-target="#simple-regression">Simple regression</a>
-  <ul class="collapse">
-  <li><a href="#calculating-the-regression-coefficients" id="toc-calculating-the-regression-coefficients" class="nav-link" data-scroll-target="#calculating-the-regression-coefficients">Calculating the regression coefficients</a></li>
-  <li><a href="#graphing-the-residuals" id="toc-graphing-the-residuals" class="nav-link" data-scroll-target="#graphing-the-residuals">Graphing the residuals</a></li>
-  </ul></li>
-  <li><a href="#multiple-regression" id="toc-multiple-regression" class="nav-link" data-scroll-target="#multiple-regression">Multiple regression</a>
-  <ul class="collapse">
-  <li><a href="#graphing-partial-residual-plots" id="toc-graphing-partial-residual-plots" class="nav-link" data-scroll-target="#graphing-partial-residual-plots">Graphing partial residual plots</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#confidence-intervals" id="toc-confidence-intervals" class="nav-link" data-scroll-target="#confidence-intervals">Confidence intervals</a>
-  <ul class="collapse">
-  <li><a href="#confidence-interval-for-proportion" id="toc-confidence-interval-for-proportion" class="nav-link" data-scroll-target="#confidence-interval-for-proportion">Confidence interval for proportion</a>
-  <ul class="collapse">
-  <li><a href="#recode-variable" id="toc-recode-variable" class="nav-link" data-scroll-target="#recode-variable">Recode variable</a></li>
-  <li><a href="#sample-proportion-and-standard-deviation" id="toc-sample-proportion-and-standard-deviation" class="nav-link" data-scroll-target="#sample-proportion-and-standard-deviation">Sample proportion and standard deviation</a></li>
-  <li><a href="#confidence-interval" id="toc-confidence-interval" class="nav-link" data-scroll-target="#confidence-interval">Confidence interval</a></li>
-  </ul></li>
-  <li><a href="#confidence-interval-for-mean" id="toc-confidence-interval-for-mean" class="nav-link" data-scroll-target="#confidence-interval-for-mean">Confidence interval for mean</a></li>
-  </ul></li>
-  <li><a href="#hypothesis-tests" id="toc-hypothesis-tests" class="nav-link" data-scroll-target="#hypothesis-tests">Hypothesis tests</a>
-  <ul class="collapse">
-  <li><a href="#hypothesis-test-for-proportion" id="toc-hypothesis-test-for-proportion" class="nav-link" data-scroll-target="#hypothesis-test-for-proportion">Hypothesis test for proportion</a></li>
-  <li><a href="#hypothesis-test-for-mean" id="toc-hypothesis-test-for-mean" class="nav-link" data-scroll-target="#hypothesis-test-for-mean">Hypothesis test for mean</a></li>
-  <li><a href="#inference-for-difference-between-two-samples" id="toc-inference-for-difference-between-two-samples" class="nav-link" data-scroll-target="#inference-for-difference-between-two-samples">Inference for Difference between Two Samples</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -1396,10 +1318,35 @@ mean of x mean of y
 <p>Due to the first method using a rule of thumb method for calculating the degrees of freedom, the result is slightly different but very close to the R function result.</p>
 
 
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W119
+</script>
+<div id="exercise-loading-indicator" class="exercise-loading-indicator d-none d-flex align-items-center gap-2">
+<div id="exercise-loading-status" class="d-flex gap-2">
+
+</div>
+<div class="spinner-grow spinner-grow-sm">
+
+</div>
+</div>
+<script type="vfs-file">
+W10=
+</script>
 </section>
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W119
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
