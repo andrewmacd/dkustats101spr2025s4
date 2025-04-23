@@ -16,7 +16,7 @@ webr:
     - knitr
   resources:
     - https://raw.githubusercontent.com/andrewmacd/dkustats101spr2025s4/main/lectures/datasets/nbaboxscores.csv
-    - https://raw.githubusercontent.com/andrewmacd/dkustats101spr2025s4/main/lectures/datasets/titanic_survival.csv
+    - https://raw.githubusercontent.com/andrewmacd/dkustats101spr2025s4/main/lectures/datasets/titanic.survival.csv
     - https://raw.githubusercontent.com/andrewmacd/dkustats101spr2025s4/main/lectures/datasets/classroster.csv
 ---
 
@@ -29,22 +29,22 @@ webr:
 
 theme_set(theme_classic())
 
-titanic_survival <- read.csv("titanic_survival.csv")
+titanic.survival <- read.csv("titanic.survival.csv")
 classroster <- read.csv("classroster.csv", fileEncoding="UTF-8-BOM")
 nbaboxscores <- read.csv("nbaboxscores.csv")
 
-titanic_survival <- titanic_survival %>% 
+titanic.survival <- titanic.survival %>% 
   rename(name = v1)
 
-titanic_mean <- mean(titanic_survival$age)
-titanic_sd <- sd(titanic_survival$age)
+titanic_mean <- mean(titanic.survival$age)
+titanic_sd <- sd(titanic.survival$age)
 ```
 
 ```{r}
 #| label: rsetup
 #| include: false
 
-titanic_survival <- read.csv("datasets/titanic_survival.csv", fileEncoding="UTF-8-BOM")
+titanic.survival <- read.csv("datasets/titanic.survival.csv", fileEncoding="UTF-8-BOM")
 ```
 
 # More on distributions
@@ -219,7 +219,7 @@ sample(classroster$name, 1)
 ```{webr}
 #| label: datastructure
 #| caption: "Titanic survival dataset structure"
-kable(head(titanic_survival))
+kable(head(titanic.survival))
 ```
 
 -   What are your expectations for how age should be distributed?
@@ -248,9 +248,9 @@ Remember, our main information about distributions is:
 
 ### Information about `age`
 
--   Standard deviation: `r round(sd(titanic_survival$age), digits=1)`
--   Mean: `r round(mean(titanic_survival$age), digits=1)`
--   Normal model: $N(\mu, \sigma) = N(`r round(mean(titanic_survival$age), digits=1)`,`r round(sd(titanic_survival$age), digits=1)`)$
+-   Standard deviation: `r round(sd(titanic.survival$age), digits=1)`
+-   Mean: `r round(mean(titanic.survival$age), digits=1)`
+-   Normal model: $N(\mu, \sigma) = N(`r round(mean(titanic.survival$age), digits=1)`,`r round(sd(titanic.survival$age), digits=1)`)$
     -   $\mu$ is the theoretical mean
     -   $\sigma$ is the theoretical standard deviation
     -   These values define the data generating process
@@ -326,7 +326,7 @@ grid.arrange(two.sd, one.sd)
 norm.dist.titanic <- rnorm(1000000, mean=titanic_mean, sd=titanic_sd)
 norm.dist.titanic <- data.frame(norm.dist.titanic)
 
-ggplot(titanic_survival, aes(x=age)) + 
+ggplot(titanic.survival, aes(x=age)) + 
   geom_histogram(aes(y=..density..), fill="blue4") +
   geom_vline(xintercept=titanic_mean, color="dark red") + 
   geom_density(data=norm.dist.titanic, aes(norm.dist.titanic), color="dark red") +
@@ -360,7 +360,7 @@ ggplot(titanic_survival, aes(x=age)) +
 ```{webr agehist2, exercise=TRUE}
 #| label: agehist2
 #| caption: "Transformation check"
-ggplot(titanic_survival, aes(x=age)) + 
+ggplot(titanic.survival, aes(x=age)) + 
   geom_histogram(fill="blue4") +
   labs(x="Age", y="Count")
 ```

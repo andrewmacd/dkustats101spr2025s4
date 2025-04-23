@@ -260,7 +260,7 @@ Topics covered:
 
 # Unit 4: Statistical inference
 
-## Lecture 4.1: Comparing groups (Wednesday, April 23)
+## Lecture 4.1: Comparing groups (Wednesday & Friday, April 23, 25)
 
 Reading to do before class: Chapter 17
 
@@ -274,18 +274,13 @@ Topics covered:
 
 -   Two-sample $t$ test
 
--   Lecture webpage: [Lecture 4.1]
+-   Lecture webpage: [Lecture 4.1](lectures/lecture.4.1.html)
 
 -   Lecture activity: [Lecture 4.1 activity]
 
-## Lab 3.1: Comparing groups activity (Wednesday, April 23)
-
--   Lab files: [Lab 3.2]
-    -   Make sure to extract (unzip) the lab files before attempting to modify them!
-
 ## In-class Unit 3 exam: Thursday, Thursday, April 24
 
-## Lecture 4.2: Returning to regression (Friday & Monday, April 25, 28)
+## Lecture 4.2: Returning to regression (Monday & Tuesday, April 28, 29)
 
 Reading to do before class: Chapter 20
 
@@ -301,7 +296,7 @@ Topics covered:
 
 -   Lecture activity: [Lecture 4.2 activity]
 
-## Final class 4.3: Interpretation activity & model building practice (Tuesday & Wednesday, April 29, 30)
+## Final class 4.3: Interpretation activity & model building practice (Wednesday, April 30)
 
 -   How to read academic statistical results
 
