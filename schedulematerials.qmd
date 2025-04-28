@@ -315,10 +315,10 @@ Topics covered:
 - Your choice of any DataCamp course (as long as it relates to statistics)
   + Send the completion certificate from the end of the course
 
-## Final project - progress check (due Friday, May 2 at 23:59:00)
+## Final project - progress check (due Sunday, May 4 at 23:59:00)
 
--   Homework files: [Final project instructions]
+-   Homework files: [Final project instructions](homeworks/Final project/final.project.zip)
 
 ## Final project (due Wednesday, May 7 at 23:59:00)
 
--   Homework files:  [Final project instructions]
+-   Homework files:  [Final project instructions](homeworks/Final project/final.project.zip)

@@ -1,7 +1,7 @@
 ---
 title: "Returning to Regression"
 author: "Professor MacDonald"
-date: "2/24/2025"
+date: "4/28/2025"
 format: 
     live-html: 
       output-file: lecture.4.2.html

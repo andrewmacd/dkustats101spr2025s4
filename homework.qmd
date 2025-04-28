@@ -22,9 +22,9 @@ title: "Homework"
 
   - [Unit 3 exam solutions]
 
-# Final exam homework check (due Friday, May 2 at 23:59:00)
+# Final exam homework check (due Sunday, May 4 at 23:59:00)
 
-  - [Final project]
+  - [Final project](homeworks/Final project/final.project.zip)
 
 # Final project (due Wednesday, May 7 at 23:59:00) 
 
