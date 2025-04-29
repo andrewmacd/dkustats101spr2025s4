@@ -306,7 +306,7 @@ Topics covered:
 
 -   Determining possible weaknesses of the model
 
--   Model building practice: [Model building lab II]
+-   Final class reading: [Final class 4.3 reading](activities/Final class/Class 4.3 reading - Taking notes in the digital age.pdf)
 
 -   Final class activity: [Final class 4.3 activity]
 
