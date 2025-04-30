@@ -308,7 +308,7 @@ Topics covered:
 
 -   Final class reading: [Final class 4.3 reading](activities/Final class/Class 4.3 reading - Taking notes in the digital age.pdf)
 
--   Final class activity: [Final class 4.3 activity]
+-   Final class activity: [Final class 4.3 activity](activities/Final class/final.class.activity.zip)
 
 ## Online lab 4.1 (due on Friday, May 2 at 11:59:00)
 
